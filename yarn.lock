@@ -1689,6 +1689,11 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-intro/-/vf-intro-1.0.0-beta.5.tgz#e9547a07254b5e13aef3f74686e0a3bd3a461f96"
   integrity sha512-353Zq0PmQM0orMDRPuyfluwL6ATA93MYTAyLWqyUPxmcgjnvXPdlq84N2H8rKbkGO9W4w9OTq0CbEIwP1k9Scw==
 
+"@visual-framework/vf-lede@^1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-lede/-/vf-lede-1.0.0-beta.5.tgz#e71181600d215f322ef41dfaccfe88d6fa78f197"
+  integrity sha512-hLwmb21JseynI2IUp+iFKtxT4npGrXBBbzo/8zrfSjvp1i77FOUijnqS25bm99eIcMrR5WceKvkOB1cMXdLZww==
+
 "@visual-framework/vf-link@^1.0.0-beta.5":
   version "1.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-link/-/vf-link-1.0.0-beta.5.tgz#3cd63be1f1ef3f5bb51190dbd41557c0e0fd9077"
