@@ -1,75 +1,59 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import VfLogo from './vf-generated-assets/assets/vf-core/components/vf-logo/assets/logo.svg';
 import Home from './Home';
+import TestPage from './TestPage';
 
 function App() {
   return (
 
     <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/topics">Topics</Link>
-          </li>
-        </ul>
+      <div className="vf-body">
 
-        <hr />
+        <header class="vf-global-header">
+          <div class="vf-global-header__inner">
+            <a href="http://www.embl.de" class="vf-logo">
+              <img class="vf-logo__image" src={VfLogo} alt="Visual Framework 2.0" />
+              <span class="vf-logo__text">Visual Framework 2.0 {Router.pathname}</span>
+            </a>
+
+
+
+            <nav class="vf-navigation vf-navigation--global">
+              <ul class="vf-navigation__list | vf-list--inline">
+                <li class="vf-navigation__item">
+                  <a href="https://visual-framework.github.io/vf-welcome/" class="vf-navigation__link">About the Visual Framework</a>
+                </li>
+                <li class="vf-navigation__item">
+                  <a href="https://visual-framework.github.io/vf-welcome/documentation" class="vf-navigation__link">Documentation</a>
+                </li>
+                <li class="vf-navigation__item">
+                  <a href="https://discord.gg/XHAvkUX" class="vf-navigation__link">Help, chat</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/topics" component={Topics} />
+        <Route path="/testpage" component={TestPage} />
+
+        <section className="embl-grid embl-grid--has-centered-content">
+          <div>
+          {/* empty */}
+          </div>
+          <div>
+            <ul class="vf-navigation__list | vf-list--inline">
+              <li class="vf-navigation__item">
+                <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
       </div>
     </Router>
-  );
-}
-
-
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Topics({ match }) {
-  return (
-    <div>
-      <h2>Topics</h2>
-      <ul>
-        <li>
-          <Link to={`${match.url}/rendering`}>Rendering with React</Link>
-        </li>
-        <li>
-          <Link to={`${match.url}/components`}>Components</Link>
-        </li>
-        <li>
-          <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-        </li>
-      </ul>
-
-      <Route path={`${match.path}/:topicId`} component={Topic} />
-      <Route
-        exact
-        path={match.path}
-        render={() => <h3>Please select a topic.</h3>}
-      />
-    </div>
-  );
-}
-
-function Topic({ match }) {
-  return (
-    <div>
-      <h3>{match.params.topicId}</h3>
-    </div>
   );
 }
 
