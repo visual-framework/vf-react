@@ -8,11 +8,21 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
+  "vfConfig": {
+    "vfName": "VF Boilerplate for React",
+    "vfNamespace": "vfreact-",
+    "vfComponentPath": "./src/vf-components",
+    "vfBuildDestination": "./build",
+    "vfThemePath": "@frctl/mandelbrot"
+  },
+  "scripts": {
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-components": "yarn upgrade-interactive --latest"
   },
   "eslintConfig": {
     "extends": "react-app"
