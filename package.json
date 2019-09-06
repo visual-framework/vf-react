@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@visual-framework/vf-content": "^1.0.0-beta.5",
-    "@visual-framework/vf-core": "^2.0.0-beta.2",
+    "@visual-framework/vf-core": "https://github.com/visual-framework/vf-core.git#develop",
     "@visual-framework/vf-design-tokens": "^1.0.0-beta.5",
     "@visual-framework/vf-grid": "^1.0.0-alpha.5",
     "@visual-framework/vf-grid-page": "^1.0.0-alpha.5",
@@ -31,13 +31,13 @@
   "vfConfig": {
     "vfName": "VF Boilerplate for React",
     "vfNamespace": "vfreact-",
-    "vfComponentPath": "./src/vf-components",
+    "vfComponentPath": "./vf-components",
     "vfBuildDestination": "./public",
     "vfThemePath": "@frctl/mandelbrot"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "gulp dev",
+    "build": "gulp build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "update-components": "yarn upgrade-interactive --latest"

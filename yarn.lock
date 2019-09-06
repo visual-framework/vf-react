@@ -1581,6 +1581,28 @@
     yeoman-generator "^4.0.1"
     yosay "^2.0.2"
 
+"@visual-framework/vf-core@https://github.com/visual-framework/vf-core.git#develop":
+  version "2.0.0-beta.2"
+  resolved "https://github.com/visual-framework/vf-core.git#3c96b547afd9818e03944ae7b98f9ea0becbd4d7"
+  dependencies:
+    "@frctl/fractal" "^1.2.0-beta.3"
+    "@frctl/nunjucks" "^2.0.1"
+    chalk "^2.4.2"
+    fast-glob "^3.0.4"
+    gulp "^4.0.2"
+    gulp-delete-lines "^0.0.7"
+    highlight.js "^9.15.10"
+    install "^0.13.0"
+    marked "^0.7.0"
+    npm "^6.11.1"
+    rollup "^1.20.0"
+    stylelint "^10.1.0"
+    stylelint-scss "^3.9.4"
+    theo "^8.1.4"
+    vinyl-source-stream "^2.0.0"
+    yeoman-generator "^4.0.1"
+    yosay "^2.0.2"
+
 "@visual-framework/vf-design-tokens@^1.0.0-beta.5":
   version "1.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-1.0.0-beta.5.tgz#814af7cb11ccbe6d2d98e0df1f7e784c60b4644b"
