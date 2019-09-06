@@ -1,6 +1,20 @@
 {
   "name": "vf-react",
   "version": "0.1.0",
+  "vfConfig": {
+    "vfName": "VF Boilerplate for React",
+    "vfNamespace": "vfreact-",
+    "vfComponentPath": "./vf-components",
+    "vfBuildDestination": "./src/vf-generated-assets",
+    "vfThemePath": "@frctl/mandelbrot"
+  },
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "update-components": "yarn upgrade-interactive --latest"
+  },
   "dependencies": {
     "@visual-framework/vf-code-example": "^1.0.0-alpha.5",
     "@visual-framework/vf-content": "^1.0.0-beta.5",
@@ -28,20 +42,6 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
     "rollup-plugin-includepaths": "^0.2.3"
-  },
-  "vfConfig": {
-    "vfName": "VF Boilerplate for React",
-    "vfNamespace": "vfreact-",
-    "vfComponentPath": "./vf-components",
-    "vfBuildDestination": "./public",
-    "vfThemePath": "@frctl/mandelbrot"
-  },
-  "scripts": {
-    "start": "gulp dev",
-    "build": "gulp build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "update-components": "yarn upgrade-interactive --latest"
   },
   "eslintConfig": {
     "extends": "react-app"

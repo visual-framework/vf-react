@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# dynamic files
+src/vf-generated*
+
 # testing
 /coverage
 
