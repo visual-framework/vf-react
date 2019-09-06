@@ -2,6 +2,7 @@
   "name": "vf-react",
   "version": "0.1.0",
   "dependencies": {
+    "@visual-framework/vf-code-example": "^1.0.0-alpha.5",
     "@visual-framework/vf-content": "^1.0.0-beta.5",
     "@visual-framework/vf-core": "https://github.com/visual-framework/vf-core.git#develop",
     "@visual-framework/vf-design-tokens": "^1.0.0-beta.5",
