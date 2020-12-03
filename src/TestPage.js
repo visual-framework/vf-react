@@ -5,12 +5,10 @@ import VfLogo from './vf-generated-assets/assets/vf-logo/assets/logo.svg';
 function TestPage() {
   return (
     <section className="embl-grid embl-grid--has-centered-content">
-
       <div>
         {/* empty */}
       </div>
       <div>
-
         <nav className="vf-breadcrumbs" aria-label="Breadcrumb">
           <ul className="vf-breadcrumbs__list | vf-list vf-list--inline">
             <li className="vf-breadcrumbs__item">

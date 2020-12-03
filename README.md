@@ -1,16 +1,14 @@
 # vf-react
 
-A React boilerplate for VF 2.0 projects
+A React boilerplate for VF 2.0 projects. 
+
+Demo: https://visual-framework.github.io/vf-react/
 
 Notes:
 
 - Builds VF components (CSS, JS, images, etc.) from `.vf-components` into `./src/vf-generated-assets`
 - Bootstrapped with [Create React App](https://github.com/facebook/create-react-app), that brings certain advantages and limitations. If you want to escape those, read up on "[eject](https://create-react-app.dev/docs/available-scripts#npm-run-eject)"
 
-TBC:
-
-- Use of VF Templates
-- JS usage
 
 ## Available Scripts
 

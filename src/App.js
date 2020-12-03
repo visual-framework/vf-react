@@ -7,7 +7,7 @@ import TestPage from './TestPage';
 function App() {
   return (
 
-    <Router>
+  <Router basename={'/vf-react'}>
       <div className="vf-body">
         <header className="vf-global-header">
           <div className="vf-global-header__inner">
@@ -32,20 +32,9 @@ function App() {
         </header>
 
         <Route exact path="/" component={Home} />
-        <Route path="/testpage" component={TestPage} />
+        <Route path="/testpage"  component={TestPage} />
+        {/* <Link to={`${process.env.PUBLIC_URL}/testpage`}>…</Link> */}
 
-        <section className="embl-grid embl-grid--has-centered-content">
-          <div>
-          {/* empty */}
-          </div>
-          <div>
-            <ul className="vf-navigation__list | vf-list--inline">
-              <li className="vf-navigation__item">
-                <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
-              </li>
-            </ul>
-          </div>
-        </section>
 
 
       </div>

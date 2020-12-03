@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import VfIntro from './component-templates/vf-intro';
 import './Home.css';
 
@@ -53,6 +54,20 @@ function Home() {
 
       </div>
       </section>
+
+      <section className="embl-grid embl-grid--has-centered-content">
+          <div>
+          {/* empty */}
+          </div>
+          <div>
+            <ul className="vf-navigation__list | vf-list--inline">
+              <li className="vf-navigation__item">
+                <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
+              </li>
+            </ul>
+          </div>
+        </section>
+
     </React.Fragment>
   );
 }
