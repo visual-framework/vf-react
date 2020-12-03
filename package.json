@@ -12,7 +12,7 @@
   "scripts": {
     "start": "gulp dev",
     "predeploy": "gulp build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d build",
     "build": "gulp build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
