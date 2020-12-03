@@ -2102,7 +2102,7 @@
     "@frctl/fractal" "1.5.1"
     "@frctl/nunjucks" "2.0.5"
 
-"@visual-framework/vf-config@^1.0.1-alpha.0":
+"@visual-framework/vf-config@1.0.1-alpha.0":
   version "1.0.1-alpha.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-config/-/vf-config-1.0.1-alpha.0.tgz#2dda99f7d2766c32cb46b321560ec15c8a3d55fe"
   integrity sha512-T5XSohedN4OKxqA0n44V8xvpDMAz1zAW0TGa+2a1B3lMpAWAt5WVpG2tdOQknHDQQpq/K/YRxFySSXk+G7f8Ew==
@@ -2157,12 +2157,12 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-figure/-/vf-figure-1.3.0.tgz#6d60b9ee33e9e681e13752082800fb0450e8945f"
   integrity sha512-SIS/FOhMn+cPZHqF7dNJPqhE8BNNU5pR8ZZsdWXsRC1zQDGWAaz0HyuD8Xtp8MOp+4JFP2DrrGpURc3V07uYLA==
 
-"@visual-framework/vf-font-plex-mono@^1.1.0":
+"@visual-framework/vf-font-plex-mono@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-mono/-/vf-font-plex-mono-1.1.0.tgz#6de805029148c7ff2d57d92f4cafe8060f4c52ed"
   integrity sha512-PQVvf0tF2W7rOuC1ETECW6d2D+xhvGkEUrYc8UYrus+Uj+dOj7XSEV3YVSdV6UonJgeLWMs/n+lrLLcfzfzHAA==
 
-"@visual-framework/vf-font-plex-sans@^1.1.0":
+"@visual-framework/vf-font-plex-sans@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-sans/-/vf-font-plex-sans-1.1.0.tgz#0229cbee0b7460805d2ba5bdc06eb683f83755fa"
   integrity sha512-QlB8S2koZwQyYcdT2YE7YJ3gkMklWqwYbXC3PYxq5j/zvqm3MaQUPody23ZCYWW3sAwFucclN18qL4M+uGrZtA==
