@@ -9,22 +9,22 @@ function App() {
 
     <Router>
       <div className="vf-body">
-        <header class="vf-global-header">
-          <div class="vf-global-header__inner">
-            <a href="http://www.embl.de" class="vf-logo">
-              <img class="vf-logo__image" src={VfLogo} alt="Visual Framework 2.0" />
-              <span class="vf-logo__text">Visual Framework 2.0 {Router.pathname}</span>
+        <header className="vf-global-header">
+          <div className="vf-global-header__inner">
+            <a href="http://www.embl.de" className="vf-logo">
+              <img className="vf-logo__image" src={VfLogo} alt="Visual Framework 2.0" />
+              <span className="vf-logo__text">Visual Framework 2.0 {Router.pathname}</span>
             </a>
-            <nav class="vf-navigation vf-navigation--global">
-              <ul class="vf-navigation__list | vf-list--inline">
-                <li class="vf-navigation__item">
-                  <a href="https://visual-framework.github.io/vf-welcome/" class="vf-navigation__link">About the Visual Framework</a>
+            <nav className="vf-navigation vf-navigation--global">
+              <ul className="vf-navigation__list | vf-list--inline">
+                <li className="vf-navigation__item">
+                  <a href="https://visual-framework.github.io/vf-welcome/" className="vf-navigation__link">About the Visual Framework</a>
                 </li>
-                <li class="vf-navigation__item">
-                  <a href="https://visual-framework.github.io/vf-welcome/documentation" class="vf-navigation__link">Documentation</a>
+                <li className="vf-navigation__item">
+                  <a href="https://visual-framework.github.io/vf-welcome/documentation" className="vf-navigation__link">Documentation</a>
                 </li>
-                <li class="vf-navigation__item">
-                  <a href="https://discord.gg/XHAvkUX" class="vf-navigation__link">Help, chat</a>
+                <li className="vf-navigation__item">
+                  <a href="https://discord.gg/XHAvkUX" className="vf-navigation__link">Help, chat</a>
                 </li>
               </ul>
             </nav>
@@ -39,8 +39,8 @@ function App() {
           {/* empty */}
           </div>
           <div>
-            <ul class="vf-navigation__list | vf-list--inline">
-              <li class="vf-navigation__item">
+            <ul className="vf-navigation__list | vf-list--inline">
+              <li className="vf-navigation__item">
                 <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
               </li>
             </ul>

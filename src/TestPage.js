@@ -11,12 +11,12 @@ function TestPage() {
       </div>
       <div>
 
-        <nav class="vf-breadcrumbs" aria-label="Breadcrumb">
-          <ul class="vf-breadcrumbs__list | vf-list vf-list--inline">
-            <li class="vf-breadcrumbs__item">
+        <nav className="vf-breadcrumbs" aria-label="Breadcrumb">
+          <ul className="vf-breadcrumbs__list | vf-list vf-list--inline">
+            <li className="vf-breadcrumbs__item">
               <NavLink className="vf-breadcrumbs__link" to="/">VF React boilerplate</NavLink>
             </li>
-            <li class="vf-breadcrumbs__item">
+            <li className="vf-breadcrumbs__item">
               Test page
             </li>
           </ul>
@@ -27,7 +27,7 @@ function TestPage() {
 
         <header className="App-header">
           <img src={VfLogo} className="App-logo" alt="logo" />
-          <p class="vf-text">
+          <p className="vf-text">
             Edit <code className="vf-code-example">src/Home.js</code> or <br/> <code className="vf-code-example">vf-components/vf-componenet-rollup/index.scss</code> and save to reload.
           </p>
           <a
@@ -40,8 +40,8 @@ function TestPage() {
           </a>
         </header>
 
-        <ul class="vf-navigation__list | vf-list--inline">
-          <li class="vf-navigation__item">
+        <ul className="vf-navigation__list | vf-list--inline">
+          <li className="vf-navigation__item">
             <NavLink className="vf-button vf-button--primary" to="/" activeClassName="">Back to the homepage</NavLink>
           </li>
         </ul>

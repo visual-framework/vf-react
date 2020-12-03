@@ -11,7 +11,7 @@ function Home() {
         <div>
         {/* empty */}
         </div>
-        <div class="vf-content">
+        <div className="vf-content">
         <h2>Quickstart</h2>
           <pre><code>
             (THIS DOES NOT YET WORK) npm init @visual-framework/vf-react your-new-site-name
