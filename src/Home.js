@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
   return (
     <React.Fragment>
-      <VfIntro name="Eleventy for the VF 2.0" />
+      <VfIntro name="React for the VF 2.0" />
 
       <section className="embl-grid embl-grid--has-centered-content">
         <div>
