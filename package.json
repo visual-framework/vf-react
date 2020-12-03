@@ -8,8 +8,11 @@
     "vfBuildDestination": "./src/vf-generated-assets",
     "vfThemePath": "@frctl/mandelbrot"
   },
+  "homepage": "/vf-react",
   "scripts": {
     "start": "gulp dev",
+    "predeploy": "gulp build",
+    "deploy": "gh-pages -d public",
     "build": "gulp build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -36,6 +39,7 @@
     "@visual-framework/vf-no-js": "1.0.1",
     "@visual-framework/vf-sass-config": "2.3.1",
     "@visual-framework/vf-utility-classes": "2.0.0",
+    "gh-pages": "^3.1.0",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "7.0.1",
     "gulp-babel": "8.0.0",
