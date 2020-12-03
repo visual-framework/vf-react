@@ -35,7 +35,7 @@ const componentDirectories = config.vfConfig.vfComponentDirectories || ['vf-core
 const buildDestionation = path.resolve('.', global.vfBuildDestination).replace(/\\/g, '/');
 
 // Tasks to build/run vf-core component system
-require('./node_modules/\@visual-framework/vf-core/tools/gulp-tasks/_gulp_rollup.js')(gulp, path, componentPath, componentDirectories, buildDestionation);
+require('@visual-framework/vf-core/gulp-tasks/_gulp_rollup.js')(gulp, path, componentPath, componentDirectories, buildDestionation);
 
 // Watch folders for changess
 gulp.task('watch', function() {

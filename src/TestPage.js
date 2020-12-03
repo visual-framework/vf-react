@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-import VfLogo from './vf-generated-assets/assets/vf-core/components/vf-logo/assets/logo.svg';
+import VfLogo from './vf-generated-assets/assets/vf-logo/assets/logo.svg';
 
 function TestPage() {
   return (

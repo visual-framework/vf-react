@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-import VfLogo from './vf-generated-assets/assets/vf-core/components/vf-logo/assets/logo.svg';
+import VfLogo from './vf-generated-assets/assets/vf-logo/assets/logo.svg';
 import Home from './Home';
 import TestPage from './TestPage';
 
@@ -9,16 +9,12 @@ function App() {
 
     <Router>
       <div className="vf-body">
-
         <header class="vf-global-header">
           <div class="vf-global-header__inner">
             <a href="http://www.embl.de" class="vf-logo">
               <img class="vf-logo__image" src={VfLogo} alt="Visual Framework 2.0" />
               <span class="vf-logo__text">Visual Framework 2.0 {Router.pathname}</span>
             </a>
-
-
-
             <nav class="vf-navigation vf-navigation--global">
               <ul class="vf-navigation__list | vf-list--inline">
                 <li class="vf-navigation__item">
