@@ -5,6 +5,8 @@
   "homepage": "https://stable.visual-framework.dev/",
   "author": "VF",
   "license": "Apache 2.0",
+  "style": "vf-componenet-rollup.css",
+  "sass": "index.scss",
   "test": "echo \"Error: no test specified\" && exit 1",
   "publishConfig": {
     "access": "public"

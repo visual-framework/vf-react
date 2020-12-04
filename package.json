@@ -4,7 +4,7 @@
   "vfConfig": {
     "vfName": "VF Boilerplate for React",
     "vfNamespace": "vfreact-",
-    "vfComponentPath": "./vf-components",
+    "vfComponentPath": "./src/vf-components",
     "vfBuildDestination": "./src/vf-generated-assets",
     "vfThemePath": "@frctl/mandelbrot"
   },
