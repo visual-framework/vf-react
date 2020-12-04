@@ -54,6 +54,7 @@
     "gulp-svgmin": "3.0.0",
     "gulp-watch": "5.0.1",
     "list-stream": "2.0.0",
+    "raw-loader": "^4.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "5.2.0",
