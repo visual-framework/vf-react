@@ -6,8 +6,7 @@ import TestPage from './TestPage';
 
 function App() {
   return (
-
-  <Router basename={'/vf-react'}>
+    <Router basename={'/vf-react'}>
       <div className="vf-body">
         <header className="vf-global-header">
           <div className="vf-global-header__inner">
