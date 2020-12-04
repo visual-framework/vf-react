@@ -10,10 +10,6 @@ function App() {
       <div className="vf-body">
         <header className="vf-global-header">
           <div className="vf-global-header__inner">
-            <a href="http://www.embl.de" className="vf-logo">
-              <img className="vf-logo__image" src={VfLogo} alt="Visual Framework 2.0" />
-              <span className="vf-logo__text">Visual Framework 2.0 {Router.pathname}</span>
-            </a>
             <nav className="vf-navigation vf-navigation--global">
               <ul className="vf-navigation__list | vf-list--inline">
                 <li className="vf-navigation__item">
