@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-import VfLogo from './vf-generated-assets/assets/vf-logo/assets/logo.svg';
+import VfLogoPath from '@visual-framework/vf-logo/assets/logo.svg';
 import Home from './Home';
 import TestPage from './TestPage';
 
@@ -32,11 +32,7 @@ function App() {
         </header>
 
         <Route exact path="/" component={Home} />
-        <Route path="/testpage"  component={TestPage} />
-        {/* <Link to={`${process.env.PUBLIC_URL}/testpage`}>…</Link> */}
-
-
-
+        <Route path="/testpage" component={TestPage} />
       </div>
     </Router>
   );
