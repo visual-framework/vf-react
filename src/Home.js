@@ -4,10 +4,11 @@ import VfIntro from './component-templates/vf-intro';
 import './Home.css';
 
 // VF njk templates
-import { VfCard } from './vf-components/vf-extensions-react/vf-extensions-react.jsx';
+import { VfCard } from './vf-components/vf-core-components/vf-card/vf-card.react.js';
+// import { VfCard } from "@visual-framework/vf-card/vf-card.react.js"; 
 
 function Home() {
-  return (
+  return (  
     <React.Fragment>
       <VfIntro name="React for the VF 2.0" />
 
