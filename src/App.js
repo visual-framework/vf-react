@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 import VfLogoPath from '@visual-framework/vf-logo/assets/logo.svg';
 import Home from './Home';
 import TestPage from './TestPage';
-import './vf-components/vf-componenet-rollup/index.scss';
+// import './vf-components/vf-componenet-rollup/index.scss';
 
 // VF njk templates
-import { VfLogo } from './vf-components/vf-extensions-react/vf-extensions-react.jsx';
+// import { VfLogo } from './vf-components/vf-extensions-react/vf-extensions-react.jsx';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className="vf-body">
         <header className="vf-global-header">
           <div className="vf-global-header__inner">
-            <VfLogo title="test" VfLogoPath={VfLogoPath} />
+            {/* <VfLogo title="test" VfLogoPath={VfLogoPath} /> */}
             <nav className="vf-navigation vf-navigation--global">
               <ul className="vf-navigation__list | vf-list--inline">
                 <li className="vf-navigation__item">

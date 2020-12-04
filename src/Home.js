@@ -4,8 +4,8 @@ import VfIntro from './component-templates/vf-intro';
 import './Home.css';
 
 // VF njk templates
-import { VfCard } from './vf-components/vf-core-components/vf-card/vf-card.react.js';
-// import { VfCard } from "@visual-framework/vf-card/vf-card.react.js"; 
+// import { VfCard } from './vf-components/vf-core-components/vf-card/vf-card.react.js';
+import { VfCard } from "@visual-framework/vf-card/vf-card.react.js"; 
 
 function Home() {
   return (  
