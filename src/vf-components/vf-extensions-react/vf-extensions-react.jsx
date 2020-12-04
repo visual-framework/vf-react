@@ -43,16 +43,18 @@ import React from 'react';
 
 // VF njk templates
 import vfNunjucks from './assets/nunjucks-slim.js';
-/* eslint-disable import/no-webpack-loader-syntax */
+/* eslint-disable import/no-webpack-loader-syntax, no-eval */
 import VfLogoTemplate from "raw-loader!@visual-framework/vf-logo/vf-logo.precompiled.js"; // https://webpack.js.org/loaders/raw-loader/
-eval(VfLogoTemplate);
-/* eslint-enable import/no-webpack-loader-syntax */
+eval(VfLogoTemplate); // we use eval as we specifically want to run a known template
+/* eslint-enable import/no-webpack-loader-syntax, no-eval */
 
 // VF component wrappers
+// ----
+
 class VfLogoCallback extends React.Component {
   componentDidMount() {
     // any JS actions needed
-    console.log('any JS actions needed')
+    // console.log('any JS actions needed')
   }
 
   render() {
@@ -64,7 +66,7 @@ type VfLogoProps = {
   title: string;
 };
 
-const VfLogo = React.memo(({ title, VfLogoPath }: VfLogoProps) => {
+export const VfLogo = React.memo(({ title, VfLogoPath }: VfLogoProps) => {
   return (
     <div>
       <div dangerouslySetInnerHTML={{ 
@@ -77,4 +79,4 @@ const VfLogo = React.memo(({ title, VfLogoPath }: VfLogoProps) => {
   )
 });
 
-export { vfNunjucks, VfLogo };
+// export { vfNunjucks, VfLogo };
