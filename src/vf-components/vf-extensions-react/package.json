@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/visual-framework/vf-core/issues/new"
   },
+  "dependencies": {
+    "raw-loader": "^4.0.2"
+  },
   "keywords": [
     "fractal",
     "component"
