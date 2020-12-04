@@ -2090,6 +2090,11 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-button/-/vf-button-1.2.0.tgz#41ccee7ca8fffb67f1e8eb92a6775a8ab0ce2232"
   integrity sha512-EhAn+9UXPtBvyHVBCC31TTZIiCBiR7rJa2/Xq9lpTrgC61LHaFNtDI+bzsLOkfFdAK8GJCtljbnI2RRDWM2E0Q==
 
+"@visual-framework/vf-card@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.3.1.tgz#72fbde8f5d1511cafcf258b7a6f4c1b01c09e072"
+  integrity sha512-ZSBmgTE5OrbmFaTg+APjYBHqXOHw1S9uTD+JPRD7GcSNKM81/7GMXtgdAsiWK9IJf4QQkT0OxLYuXx+ubfJYLQ==
+
 "@visual-framework/vf-code-example@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-code-example/-/vf-code-example-1.2.0.tgz#ca08338135d84e647300d6a3a1a55353e1ef4946"

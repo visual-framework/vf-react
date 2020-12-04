@@ -45,7 +45,10 @@ import React from 'react';
 import vfNunjucks from './assets/nunjucks-slim.js';
 /* eslint-disable import/no-webpack-loader-syntax, no-eval */
 import VfLogoTemplate from "raw-loader!@visual-framework/vf-logo/vf-logo.precompiled.js"; // https://webpack.js.org/loaders/raw-loader/
+import VfCardTemplate from "raw-loader!@visual-framework/vf-card/vf-card.precompiled.js"; // https://webpack.js.org/loaders/raw-loader/
+
 eval(VfLogoTemplate); // we use eval as we specifically want to run a known template
+eval(VfCardTemplate); // we use eval as we specifically want to run a known template
 /* eslint-enable import/no-webpack-loader-syntax, no-eval */
 
 // VF component wrappers
@@ -79,4 +82,33 @@ export const VfLogo = React.memo(({ title, VfLogoPath }: VfLogoProps) => {
   )
 });
 
-// export { vfNunjucks, VfLogo };
+class VfCardCallback extends React.Component {
+  componentDidMount() {
+    // any JS actions needed
+    // console.log('any JS actions needed')
+  }
+
+  render() {
+    return <div />;
+  }
+}
+
+type VfCardProps = {
+  card_title: string;
+};
+
+export const VfCard = React.memo(({ card_title, variant, newTheme, card_image, card_text, card_image__alt }: VfCardProps) => {
+  return (
+    <div>
+      <div dangerouslySetInnerHTML={{ 
+        // our HTML is handled by nunjucks, this should not receive user input
+        __html: 
+        vfNunjucks.render('vf-card', { variant: variant, newTheme: newTheme, card_image: card_image, card_text: card_text, card_image__alt: card_image__alt, card_title: card_title })
+      }} />
+      <VfCardCallback></VfCardCallback>
+    </div>
+  )
+});
+
+
+// export { VfLogo, VfCard };

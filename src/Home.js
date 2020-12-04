@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 import VfIntro from './component-templates/vf-intro';
 import './Home.css';
 
+// VF njk templates
+import { VfCard } from './vf-components/vf-extensions-react/vf-extensions-react.jsx';
+
 function Home() {
   return (
     <React.Fragment>
@@ -19,6 +22,11 @@ function Home() {
           </code></pre>
       <p>This will install a new <a href="https://github.com/visual-framework/vf-react/"><code>vf-react</code></a> to a folder named <code>your-new-site-name</code>.</p>
       <p>Then follow the onscreen prompts and links below to develop and configure.</p>
+
+      <div className="vf-grid vf-grid__col-2">
+      <VfCard card_title="test" variant="striped" newTheme="primary" card_image="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg" card_text="im some text" card_image__alt="people"></VfCard>
+      <VfCard card_title="Test 2" variant="striped" newTheme="primary" card_image="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg" card_text="im some more text" card_image__alt="people"></VfCard>
+      </div>
 
       <h2>What you get</h2>
 
