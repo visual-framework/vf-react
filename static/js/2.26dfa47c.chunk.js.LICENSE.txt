@@ -4,6 +4,8 @@ object-assign
 @license MIT
 */
 
+/*! Browser bundle of nunjucks 3.2.2 (slim, only works with precompiled templates) */
+
 /** @license React v0.20.1
  * scheduler.production.min.js
  *
