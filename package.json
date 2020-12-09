@@ -21,7 +21,7 @@
   "dependencies": {
     "@visual-framework/embl-grid": "2.1.0",
     "@visual-framework/vf-breadcrumbs": "2.0.1",
-    "@visual-framework/vf-button": "1.2.0",
+    "@visual-framework/vf-button": "1.3.0",
     "@visual-framework/vf-code-example": "1.2.0",
     "@visual-framework/vf-config": "1.0.1-alpha.0",
     "@visual-framework/vf-content": "1.3.2",
