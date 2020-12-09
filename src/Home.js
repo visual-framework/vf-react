@@ -3,8 +3,13 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 import VfIntro from './component-templates/vf-intro';
 import './Home.css';
 
+// VF njk templates
+// import { VfCard } from './vf-components/vf-core-components/vf-card/vf-card.react.js';
+import { VfCard } from "@visual-framework/vf-card/vf-card.react.js"; 
+import { vfButton } from "@visual-framework/vf-button/vf-button.react.js"; 
+
 function Home() {
-  return (
+  return (  
     <React.Fragment>
       <VfIntro name="React for the VF 2.0" />
 
@@ -20,11 +25,18 @@ function Home() {
       <p>This will install a new <a href="https://github.com/visual-framework/vf-react/"><code>vf-react</code></a> to a folder named <code>your-new-site-name</code>.</p>
       <p>Then follow the onscreen prompts and links below to develop and configure.</p>
 
+      <div className="vf-grid vf-grid__col-2">
+      <VfCard card_title="React vf-card" variant="striped" newTheme="primary" card_image="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg" card_text="I'm made with a VF component that supports react " card_image__alt="people"></VfCard>
+      <VfCard card_title="React vf-card 2" variant="striped" newTheme="primary" card_image="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg" card_text="im some more text" card_image__alt="people"></VfCard>
+      </div>
+
+
+
       <h2>What you get</h2>
 
       <ul>
       <li>a site created with Create React App</li>
-      <li>and integreated with the Visual Framework component system</li>
+      <li>and integrated with the Visual Framework component system</li>
       </ul>
 
       <h3>Component installation</h3>
@@ -63,6 +75,10 @@ function Home() {
             <ul className="vf-navigation__list | vf-list--inline">
               <li className="vf-navigation__item">
                 <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
+                {/* 
+                <VfButton text="Go to the test page" theme="Primary" button_href="/" />
+                VfButton currently does not work as we need to add support for common VF Nunjucks extensions, like spaceless
+                 */}
               </li>
             </ul>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-import VfLogo from './vf-generated-assets/assets/vf-logo/assets/logo.svg';
+import VfLogoPath from '@visual-framework/vf-logo/assets/logo.svg';
 
 function TestPage() {
   return (
@@ -24,7 +24,7 @@ function TestPage() {
 
 
         <header className="App-header">
-          <img src={VfLogo} className="App-logo" alt="logo" />
+          <img src={VfLogoPath} className="App-logo" alt="logo" />
           <p className="vf-text">
             Edit <code className="vf-code-example">src/Home.js</code> or <br/> <code className="vf-code-example">vf-components/vf-componenet-rollup/index.scss</code> and save to reload.
           </p>
