@@ -2085,15 +2085,20 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-breadcrumbs/-/vf-breadcrumbs-2.0.1.tgz#3237369ffa86f567b42fa399b0c61bfb68495e8c"
   integrity sha512-evYLJSpc+KaT9uVg83U7kIoiuFW8+lOrccY1cWBMFty2oKwj0qlt3TG7sw1NODYvKQZnEMhdcRwzE8tR+V7wAQ==
 
-"@visual-framework/vf-button@1.3.0", "@visual-framework/vf-button@^1.3.0":
+"@visual-framework/vf-button@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-button/-/vf-button-1.3.1.tgz#4ff7c102ba52eef2d5f661e439d8413407ea438f"
+  integrity sha512-dBlMM1nje1YHyKjtJlL83XQbEFWW/40Njk+k8TLu8Trg7+VPXo+MdGGtqJGy73a4IL65iWJJ6yvdbieD3Yndbg==
+
+"@visual-framework/vf-button@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-button/-/vf-button-1.3.0.tgz#77952509913d6581fdeaa62b75c1b40770567103"
   integrity sha512-N7Pmn/IpmvLxA61dl3KGRPpsHqiOYI6mZ9c53V/+BLW3K0fXYUzYYzFxIR2O8HE4Sap9GDqMBYm7vILKzNT59Q==
 
-"@visual-framework/vf-card@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.3.2.tgz#01e27bdceee30f42d8dd6794830332dd71895a61"
-  integrity sha512-/sqc467yhco49N0MMYYrTTgl/wAcC8KLCLUgH7AkEYWm0bQx1YiF+ZfFr/99XP6V9d1M6cbMAq4JVltd3dWjgQ==
+"@visual-framework/vf-card@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.3.3.tgz#61943099f3988fc74b7447d754864e09a715c240"
+  integrity sha512-We4zqGtvBVKWW2VY2knOmE2WbCiHSatv+61P/cmEmVwF2KUvU+qPmskjEreswnKCpFS21x7F8QwEtstfqke41w==
 
 "@visual-framework/vf-code-example@1.2.0":
   version "1.2.0"
@@ -2172,12 +2177,12 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-divider/-/vf-divider-2.0.0.tgz#1a23ebc5475be7f7e927c09ed2b6ce6e75e88fc0"
   integrity sha512-TVRB3Jg6wcKZi7TlQvWjAX7nzGdS9kJTMtvOMWfyM8+rFnM8A+VZ32vkT+UXHGa/8Lxl5ccTsCCnHgsRZu2mgA==
 
-"@visual-framework/vf-extensions-react@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-extensions-react/-/vf-extensions-react-0.0.1.tgz#e5a3c0bd006803d1e62f61ed33843b82389b3d60"
-  integrity sha512-SdwPsG7kSVXEsKF8XzrEtr4oFArWE+4BbIB2jf54cqQo1MfA9oLGUbyaSDtyfPQ6NDnKVMZjbxnnFDqLcHcqVw==
+"@visual-framework/vf-extensions-react@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-extensions-react/-/vf-extensions-react-0.0.2.tgz#b7ba147816fdad61e48481511613935a9a8cd259"
+  integrity sha512-o+XWN5I/VKfzj2pkcpX7lY4kmN+VM82SoN3FFj8DtiG4hT6b+Y1YfpfOe9NfR0EcsSDB1wSS66DvgSanCqK6CQ==
   dependencies:
-    raw-loader "^4.0.2"
+    react-dom-fragment "^1.0.0"
 
 "@visual-framework/vf-figure@^1.3.0":
   version "1.3.0"
@@ -13821,14 +13826,6 @@ raw-body@^2.3.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-raw-loader@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
-  integrity sha512-ZnScIV3ag9A4wPX/ZayxL/jZH+euYb6FcUinPcgiQW0+UBtEv0O6Q3lGd3cqJ+GHH+rksEv3Pj99oxJ3u3VIKA==
-  dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-
 rc@^1.0.1, rc@^1.1.6:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
@@ -13880,6 +13877,14 @@ react-dev-utils@^11.0.1:
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
     text-table "0.2.0"
+
+react-dom-fragment@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-dom-fragment/-/react-dom-fragment-1.0.0.tgz#2a5c9e6e09cd5d17a535546121ec02191eef316d"
+  integrity sha512-eA/TWY5/fo7lck+wD5yEWKEMU8CBvt+DCUlPCso3gT1SnoySmrVaV7h1MIG4qINAluepmFsHu5TATnuxEGPc5g==
+  dependencies:
+    "@babel/core" "^7.9.0"
+    rollup-plugin-eslint "^7.0.0"
 
 react-dom@17.0.1:
   version "17.0.1"
@@ -14752,6 +14757,14 @@ rollup-plugin-babel@^4.3.3:
     "@babel/helper-module-imports" "^7.0.0"
     rollup-pluginutils "^2.8.1"
 
+rollup-plugin-eslint@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-eslint/-/rollup-plugin-eslint-7.0.0.tgz#a6dbcbc14699a7a02155697c0c3dfa26cca59a9b"
+  integrity sha512-u35kXiY11ULeNQGTlRkYx7uGJ/hS/Dx3wj8f9YVC3oMLTGU9fOqQJsAKYtBFZU3gJ8Vt3gu8ppB1vnKl+7gatQ==
+  dependencies:
+    eslint "^6.0.0"
+    rollup-pluginutils "^2.7.1"
+
 rollup-plugin-includepaths@0.2.4, rollup-plugin-includepaths@^0.2.3:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.4.tgz#eb21d2d05ad410856a7c2f0612a85983fd11cc62"
@@ -14768,7 +14781,7 @@ rollup-plugin-terser@^5.3.1:
     serialize-javascript "^4.0.0"
     terser "^4.6.2"
 
-rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
+rollup-pluginutils@^2.7.1, rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz#72f2af0748b592364dbd3389e600e5a9444a351e"
   integrity sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==

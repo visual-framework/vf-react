@@ -6,7 +6,8 @@ import './Home.css';
 // VF njk templates
 // import { VfCard } from './vf-components/vf-core-components/vf-card/vf-card.react.js';
 import { VfCard } from "@visual-framework/vf-card/vf-card.react.js"; 
-import { vfButton } from "@visual-framework/vf-button/vf-button.react.js"; 
+import { VfButton } from "@visual-framework/vf-button/vf-button.react.js"; 
+
 
 function Home() {
   return (  
@@ -16,7 +17,7 @@ function Home() {
       <section className="embl-grid embl-grid--has-centered-content">
         <div>
         {/* empty */}
-        </div>
+        </div> 
         <div className="vf-content">
         <h2>Quickstart</h2>
           <pre><code>
@@ -32,7 +33,7 @@ function Home() {
 
 
 
-      <h2>What you get</h2>
+      <h2>What you get</h2> 
 
       <ul>
       <li>a site created with Create React App</li>
@@ -74,11 +75,8 @@ function Home() {
           <div>
             <ul className="vf-navigation__list | vf-list--inline">
               <li className="vf-navigation__item">
-                <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink>
-                {/* 
-                <VfButton text="Go to the test page" theme="Primary" button_href="/" />
-                VfButton currently does not work as we need to add support for common VF Nunjucks extensions, like spaceless
-                 */}
+                {/* <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink> */}
+                <VfButton text="Go to the test page" theme="primary" button_href="/testpage" />
               </li>
             </ul>
           </div>
