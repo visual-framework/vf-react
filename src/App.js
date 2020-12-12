@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { HashRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import VfLogoPath from '@visual-framework/vf-logo/assets/logo.svg';
 import Home from './Home';
 import TestPage from './TestPage';
