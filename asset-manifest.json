@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vf-react/static/css/main.959ce4c9.chunk.css",
-    "main.js": "/vf-react/static/js/main.329a447f.chunk.js",
-    "main.js.map": "/vf-react/static/js/main.329a447f.chunk.js.map",
+    "main.css": "/vf-react/static/css/main.25d26b17.chunk.css",
+    "main.js": "/vf-react/static/js/main.1001a32f.chunk.js",
+    "main.js.map": "/vf-react/static/js/main.1001a32f.chunk.js.map",
     "runtime-main.js": "/vf-react/static/js/runtime-main.70f94083.js",
     "runtime-main.js.map": "/vf-react/static/js/runtime-main.70f94083.js.map",
     "static/js/2.bbe598c1.chunk.js": "/vf-react/static/js/2.bbe598c1.chunk.js",
     "static/js/2.bbe598c1.chunk.js.map": "/vf-react/static/js/2.bbe598c1.chunk.js.map",
     "index.html": "/vf-react/index.html",
-    "static/css/main.959ce4c9.chunk.css.map": "/vf-react/static/css/main.959ce4c9.chunk.css.map",
+    "static/css/main.25d26b17.chunk.css.map": "/vf-react/static/css/main.25d26b17.chunk.css.map",
     "static/js/2.bbe598c1.chunk.js.LICENSE.txt": "/vf-react/static/js/2.bbe598c1.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/vf-react/static/media/IBMPlexSans-ThinItalic.7e474e2e.woff",
     "static/media/logo.svg": "/vf-react/static/media/logo.07f412a3.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.70f94083.js",
     "static/js/2.bbe598c1.chunk.js",
-    "static/css/main.959ce4c9.chunk.css",
-    "static/js/main.329a447f.chunk.js"
+    "static/css/main.25d26b17.chunk.css",
+    "static/js/main.1001a32f.chunk.js"
   ]
 }
