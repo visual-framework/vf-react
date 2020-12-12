@@ -76,7 +76,7 @@ function Home() {
             <ul className="vf-navigation__list | vf-list--inline">
               <li className="vf-navigation__item">
                 {/* <NavLink className="vf-button vf-button--primary" to="/testpage" activeClassName="vf-local-overrides--hidden">Go to the Test page</NavLink> */}
-                <VfButton text="Go to the test page" theme="primary" button_href="/testpage" />
+                <VfButton text="Go to the test page" theme="primary" button_href="testpage" />
               </li>
             </ul>
           </div>
