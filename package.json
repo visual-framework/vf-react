@@ -47,7 +47,7 @@
     "@visual-framework/vf-sass-starter": "0.1.13",
     "@visual-framework/vf-search": "1.2.0",
     "@visual-framework/vf-table": "1.1.2",
-    "@visual-framework/vf-tabs": "1.1.2",
+    "@visual-framework/vf-tabs": "1.2.0",
     "@visual-framework/vf-u-fullbleed": "1.2.2",
     "@visual-framework/vf-utility-classes": "2.0.0",
     "gh-pages": "3.1.0",
