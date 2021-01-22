@@ -2295,10 +2295,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-heading/-/vf-heading-1.0.0.tgz#c3c07b9c5830492dcebc8de8a7085ffce4ccf9b6"
   integrity sha512-x5d26AErY2LoTGvmpfxtlJoupl0TvsF2qf+Bog+UOfcJEdBBKc817W1obI80uVuT70PIpuO/gCAB95yrofVdCg==
 
-"@visual-framework/vf-intro@1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-intro/-/vf-intro-1.4.2.tgz#ecfee42cc94e269c86497f44f5a0dcaa72fb03f7"
-  integrity sha512-lAd6JwLEcpI2dKxZ9lRvghGP55WmiFiKR3JEKw98lQllIF9cpq5u6jHipBUtYdBAfkv0ytqWr5mHPHt64tC/nA==
+"@visual-framework/vf-intro@1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-intro/-/vf-intro-1.4.5.tgz#c6692647924ae743da7703de26f9d85c69f1696f"
+  integrity sha512-yPhh9DBrrABXNDf7VFY845yxW0+ReEIn04TS5MiKvIUNafuZuxgwO0iRVCTtwDRbT6JY7GNjd3biSagZi0H1wg==
 
 "@visual-framework/vf-lede@1.0.1":
   version "1.0.1"
