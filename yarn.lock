@@ -2162,10 +2162,15 @@
     list-stream "^2.0.0"
     marked "^1.1.1"
 
-"@visual-framework/vf-design-tokens@3.1.0", "@visual-framework/vf-design-tokens@^3.1.0":
+"@visual-framework/vf-design-tokens@3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.1.0.tgz#0438da9dc796adb6bf9d794f334c6ca0cdbd417a"
   integrity sha512-NmK9oQjHWU98iBdGlVmxz+O9bJnE30ta/FqfDlKigeySK+MqpynyQTCCjQ5NAVPNW4cpkqV2y1RwOTuopph18g==
+
+"@visual-framework/vf-design-tokens@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.2.0.tgz#aa598fc21c6c7e1886fb7e0ef09899d4805d025a"
+  integrity sha512-s87DeBw+cA/bm3fmOyGx6790j0vHdr4XWpNJNsLFl6j2azIC00vxZHkx5Rta56+4LFO6kTN6dTWkJROYMLxnEg==
 
 "@visual-framework/vf-details@1.1.0":
   version "1.1.0"
@@ -2189,15 +2194,25 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-figure/-/vf-figure-1.3.0.tgz#6d60b9ee33e9e681e13752082800fb0450e8945f"
   integrity sha512-SIS/FOhMn+cPZHqF7dNJPqhE8BNNU5pR8ZZsdWXsRC1zQDGWAaz0HyuD8Xtp8MOp+4JFP2DrrGpURc3V07uYLA==
 
-"@visual-framework/vf-font-plex-mono@1.1.0", "@visual-framework/vf-font-plex-mono@^1.1.0":
+"@visual-framework/vf-font-plex-mono@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-mono/-/vf-font-plex-mono-1.1.0.tgz#6de805029148c7ff2d57d92f4cafe8060f4c52ed"
   integrity sha512-PQVvf0tF2W7rOuC1ETECW6d2D+xhvGkEUrYc8UYrus+Uj+dOj7XSEV3YVSdV6UonJgeLWMs/n+lrLLcfzfzHAA==
 
-"@visual-framework/vf-font-plex-sans@1.1.0", "@visual-framework/vf-font-plex-sans@^1.1.0":
+"@visual-framework/vf-font-plex-mono@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-mono/-/vf-font-plex-mono-1.1.1.tgz#bbb38e1b7b2182a822fe19d823da9bba80d72d84"
+  integrity sha512-8y+B4SFrOwLV8M21NC2aZuafgIz8PRvkxIYFbdf1xDRdXLm1nPxUC6wuajMEEd4kBWmD+Le5/CNy2ygyRHGWMw==
+
+"@visual-framework/vf-font-plex-sans@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-sans/-/vf-font-plex-sans-1.1.0.tgz#0229cbee0b7460805d2ba5bdc06eb683f83755fa"
   integrity sha512-QlB8S2koZwQyYcdT2YE7YJ3gkMklWqwYbXC3PYxq5j/zvqm3MaQUPody23ZCYWW3sAwFucclN18qL4M+uGrZtA==
+
+"@visual-framework/vf-font-plex-sans@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-sans/-/vf-font-plex-sans-1.1.1.tgz#25a4e7aa0dcffa83be278df42d6b77423e3e0a21"
+  integrity sha512-3DM5UZskVMfu4Zr8A6xLbqu5gkfrIfAw1egK64UrNh5pvsCalqirP5L2mmGPfOSrota386LfaZrz1HxESXFLSw==
 
 "@visual-framework/vf-footer@1.1.0":
   version "1.1.0"
@@ -2358,20 +2373,25 @@
     stylelint-scss "^3.12.0"
     vinyl-source-stream "^2.0.0"
 
-"@visual-framework/vf-sass-config@2.3.1", "@visual-framework/vf-sass-config@^2.3.0":
+"@visual-framework/vf-sass-config@2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.3.1.tgz#6720e7912f127c38651c2eb0732291ef0946d7ad"
   integrity sha512-HkUcJ50mgE6sFg0va1esD1ad1o7LbVoYTmTeYm8Ul0Vn0xvlj7NobXukmofCLb1YqT2UsDhzPxriTE3/pVNzhw==
 
-"@visual-framework/vf-sass-starter@0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.13.tgz#200ff8495c9f440dfa92d6b9962cfbd48e1c1f94"
-  integrity sha512-XMUYD6b3rUco9wx1Add6Hoj1n3b/Lf1dWNuD5z2kzcaSTGBsJMXgSwsoq4G3FR80V/Bu0WaH8T9bTBdeEPGsgA==
+"@visual-framework/vf-sass-config@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.4.0.tgz#f7963dcc7c01eb1159f2a4d371237515e8ced2c5"
+  integrity sha512-EzCjoIJMGCiWhK1hHS2GBJcN3U2P3T0FBQf134LnTqCJN3wJ8ef72HwF9XaGDs0thp6tXgDf77kWFKo9Mi5uCw==
+
+"@visual-framework/vf-sass-starter@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.15.tgz#6857177adf3a4834ce93dd8307ed7b550d6fbfa6"
+  integrity sha512-j2Thy5fXGMnWYGKdBjLTC5QwHGKAp4RUKWJFD9dTAKScvoc4XqUqfTuZWEAZAZorzlz5lUOKLqX7/GRPXUWB5g==
   dependencies:
-    "@visual-framework/vf-design-tokens" "^3.1.0"
-    "@visual-framework/vf-font-plex-mono" "^1.1.0"
-    "@visual-framework/vf-font-plex-sans" "^1.1.0"
-    "@visual-framework/vf-sass-config" "^2.3.0"
+    "@visual-framework/vf-design-tokens" "^3.2.0"
+    "@visual-framework/vf-font-plex-mono" "^1.1.1"
+    "@visual-framework/vf-font-plex-sans" "^1.1.1"
+    "@visual-framework/vf-sass-config" "^2.4.0"
     "@visual-framework/vf-sass-utilities" "^1.0.1"
     "@visual-framework/vf-utility-classes" "^2.0.0"
 
