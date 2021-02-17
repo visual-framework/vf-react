@@ -24,23 +24,7 @@ gulp.task('react:dev', shell.task(
   ['react-scripts start']
 ));
 
-// Run Fractal and capture the components object
-gulp.task('fractal', function(done) {
-  global.vfBuilderPath   = __dirname + '/public/vf-core-components';
-  // global.vfDocsPath      = __dirname + '/node_modules/\@visual-framework/vf-eleventy--extensions/fractal/docs';
-  global.vfOpenBrowser   = false; // if you want to open a browser tab for the component library
-  global.fractal         = require('@visual-framework/vf-core/fractal.js').initialize(fractalBuildMode,fractalReadyCallback); // make fractal components are available gloablly
-
-  function fractalReadyCallback(fractal) {
-    global.fractal = fractal; // save fractal globally
-    // global.eleventy = require('@11ty/eleventy/cmd.js');
-
-    done();
-  }
-});
-
 // Let's build this sucker.
-let fractalBuildMode = 'build';
 gulp.task('build', gulp.series(
   'vf-clean',
   gulp.parallel('vf-component-assets'),
