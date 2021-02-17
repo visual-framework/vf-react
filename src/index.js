@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './vf-generated-assets/css/styles.css';
+import './vf-components/vf-componenet-rollup/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

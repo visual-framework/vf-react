@@ -4,8 +4,8 @@
   "vfConfig": {
     "vfName": "VF Boilerplate for React",
     "vfNamespace": "vfreact-",
-    "vfComponentPath": "./src/vf-components",
-    "vfBuildDestination": "./src/vf-generated-assets",
+    "vfComponentPath": "@visual-framework",
+    "vfBuildDestination": "./build/vf-generated-assets",
     "vfThemePath": "@frctl/mandelbrot"
   },
   "homepage": "/vf-react",
@@ -25,7 +25,9 @@
     "@visual-framework/vf-breadcrumbs": "2.0.1",
     "@visual-framework/vf-button": "1.3.1",
     "@visual-framework/vf-card": "2.3.3",
+    "@visual-framework/vf-cluster": "^1.0.1",
     "@visual-framework/vf-code-example": "1.2.0",
+    "@visual-framework/vf-collapse": "^0.0.2",
     "@visual-framework/vf-config": "1.0.1-alpha.0",
     "@visual-framework/vf-content": "1.3.3",
     "@visual-framework/vf-core": "2.2.14",
@@ -46,6 +48,7 @@
     "@visual-framework/vf-sass-config": "2.3.1",
     "@visual-framework/vf-sass-starter": "0.1.13",
     "@visual-framework/vf-search": "1.2.0",
+    "@visual-framework/vf-stack": "^2.0.0",
     "@visual-framework/vf-table": "1.1.2",
     "@visual-framework/vf-tabs": "1.1.2",
     "@visual-framework/vf-u-fullbleed": "1.2.2",
