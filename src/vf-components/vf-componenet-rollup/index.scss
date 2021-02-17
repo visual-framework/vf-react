@@ -7,20 +7,45 @@
  * or follow the guide at github.com/visual-framework/vf-core
  * to learn how to build custom and optimised CSS.
  */
-/*! Component: #{map-get($componentInfo, 'name')}
- * Version: #{map-get($componentInfo, 'version')}
+/*! 
  * Location: #{map-get($componentInfo, 'location')}
  * VF Core version in use: #{map-get($componentInfo, 'vfCoreVersion')}
  * Build time: #{map-get($componentInfo, 'buildTimeStamp')}
  */
 
-@import 'vf-sass-config/index.scss';
+@import 'node_modules/@visual-framework/vf-sass-config/index.scss';
 // Note, you can also do relative imports
 // @import '../vf-sass-config/index.scss';
 
 /* All Visual Framework Font components */
-@import 'vf-font-plex-mono/vf-font-plex-mono.scss';
-@import 'vf-font-plex-sans/vf-font-plex-sans.scss';
+$vf-font-plex-mono-prefix: '../../../../assets';
+@import 'node_modules/@visual-framework/vf-font-plex-mono/vf-font-plex-mono.scss';
+
+// @import 'node_modules/@visual-framework/vf-font-plex-sans/vf-font-plex-sans.scss';
+// @import 'node_modules/@visual-framework/vf-font-plex-sans/vf-font-plex-sans.scss';
+
+// Here we're not making use of vf-core's Sass include paths, and there's an issue around
+// Plex's nesting of assets, so we manually import each font weight.
+// This is also an annoyance present in IBM Plex's distro https://www.npmjs.com/package/@ibm/plex
+$vf-font-plex-sans-prefix: '../../../../assets';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/bold/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/extralight/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/light/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/regular/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/medium/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/semibold/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/text/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/thin/_index.scss';
+
+$vf-font-plex-sans-prefix: '../../../../../assets';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/bold/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/extralight/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/light/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/medium/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/semibold/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/text/italic/_index.scss';
+@import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/thin/italic/_index.scss';
 
 html,
 button {
@@ -32,115 +57,115 @@ button {
 /* Visual Framework content compatibility
  * We put this first so it will have the least specificity
  */
-@import 'vf-content/vf-content.scss';
+@import 'node_modules/@visual-framework/vf-content/vf-content.scss';
 
 /* All Visual Framework grids */
 
 // vf-grid-page is deprecated, use vf-body instead
 // @import 'vf-grid-page/vf-grid-page.scss';
-@import 'vf-body/vf-body.scss';
-@import 'vf-grid/vf-grid.scss';
-@import 'vf-cluster/vf-cluster.scss';
-@import 'vf-stack/vf-stack.scss';
+@import 'node_modules/@visual-framework/vf-body/vf-body.scss';
+@import 'node_modules/@visual-framework/vf-grid/vf-grid.scss';
+@import 'node_modules/@visual-framework/vf-cluster/vf-cluster.scss';
+@import 'node_modules/@visual-framework/vf-stack/vf-stack.scss';
 
-@import 'embl-grid/embl-grid.scss';
+@import 'node_modules/@visual-framework/embl-grid/embl-grid.scss';
 
 /* All Visual Framework Elements */
 
-@import 'vf-badge/vf-badge.scss';
-@import 'vf-collapse/vf-collapse.scss';
-@import 'vf-link/vf-link.scss';
-@import 'vf-link/vf-link--primary.scss';
-@import 'vf-link/vf-link--secondary.scss';
-@import 'vf-link/vf-link--disabled.scss';
-@import 'vf-logo/vf-logo.scss';
-@import 'vf-embed/vf-embed.scss';
-@import 'embl-logo/embl-logo.scss';
-@import 'vf-explainer/vf-explainer.scss';
-@import 'vf-form__core/vf-form__core.scss';
-@import 'vf-button/vf-button.scss';
-@import 'vf-figure/vf-figure.scss';
-@import 'vf-list/vf-list.scss';
-@import 'vf-blockquote/vf-blockquote.scss';
-@import 'vf-divider/vf-divider.scss';
-@import 'embl-conditional-edit/embl-conditional-edit.scss';
+@import 'node_modules/@visual-framework/vf-badge/vf-badge.scss';
+@import 'node_modules/@visual-framework/vf-collapse/vf-collapse.scss';
+@import 'node_modules/@visual-framework/vf-link/vf-link.scss';
+@import 'node_modules/@visual-framework/vf-link/vf-link--primary.scss';
+@import 'node_modules/@visual-framework/vf-link/vf-link--secondary.scss';
+@import 'node_modules/@visual-framework/vf-link/vf-link--disabled.scss';
+@import 'node_modules/@visual-framework/vf-logo/vf-logo.scss';
+// @import 'node_modules/@visual-framework/vf-embed/vf-embed.scss';
+// @import 'node_modules/@visual-framework/embl-logo/embl-logo.scss';
+// @import 'node_modules/@visual-framework/vf-explainer/vf-explainer.scss';
+// @import 'node_modules/@visual-framework/vf-form__core/vf-form__core.scss';
+@import 'node_modules/@visual-framework/vf-button/vf-button.scss';
+@import 'node_modules/@visual-framework/vf-figure/vf-figure.scss';
+@import 'node_modules/@visual-framework/vf-list/vf-list.scss';
+@import 'node_modules/@visual-framework/vf-blockquote/vf-blockquote.scss';
+@import 'node_modules/@visual-framework/vf-divider/vf-divider.scss';
+// @import 'node_modules/@visual-framework/embl-conditional-edit/embl-conditional-edit.scss';
 
-/* All Visual Framework Blocks */
+// /* All Visual Framework Blocks */
 
-@import 'vf-box/vf-box.scss';
+@import 'node_modules/@visual-framework/vf-box/vf-box.scss';
 
-@import 'vf-breadcrumbs/vf-breadcrumbs.scss';
-@import 'vf-breadcrumbs/vf-breadcrumbs--with-related.scss';
+// @import 'node_modules/@visual-framework/vf-breadcrumbs/vf-breadcrumbs.scss';
+// @import 'node_modules/@visual-framework/vf-breadcrumbs/vf-breadcrumbs--with-related.scss';
 
-@import 'vf-card/vf-card.scss';
-@import 'vf-card-container/vf-card-container.scss';
+@import 'node_modules/@visual-framework/vf-card/vf-card.scss';
+// @import 'node_modules/@visual-framework/vf-card-container/vf-card-container.scss';
 
-@import 'vf-discussion/vf-discussion.scss';
+// @import 'node_modules/@visual-framework/vf-discussion/vf-discussion.scss';
 
-@import 'vf-code-example/vf-code-example.scss';
-@import 'vf-page-header/vf-page-header.scss';
-@import 'vf-link-list/vf-link-list.scss';
-@import 'vf-header/vf-header.scss';
-@import 'vf-hero/vf-hero.scss';
+@import 'node_modules/@visual-framework/vf-code-example/vf-code-example.scss';
+// @import 'node_modules/@visual-framework/vf-page-header/vf-page-header.scss';
+// @import 'node_modules/@visual-framework/vf-link-list/vf-link-list.scss';
+// @import 'node_modules/@visual-framework/vf-header/vf-header.scss';
+// @import 'node_modules/@visual-framework/vf-hero/vf-hero.scss';
 
-@import 'vf-lede/vf-lede.scss';
+@import 'node_modules/@visual-framework/vf-lede/vf-lede.scss';
 
-@import 'vf-masthead/vf-masthead.scss';
+// @import 'node_modules/@visual-framework/vf-masthead/vf-masthead.scss';
 
-@import 'vf-navigation/vf-navigation.scss';
-@import 'vf-navigation/vf-navigation--global.scss';
-@import 'vf-navigation/vf-navigation--main.scss';
-@import 'vf-navigation/vf-navigation--additional.scss';
+@import 'node_modules/@visual-framework/vf-navigation/vf-navigation.scss';
+@import 'node_modules/@visual-framework/vf-navigation/vf-navigation--global.scss';
+@import 'node_modules/@visual-framework/vf-navigation/vf-navigation--main.scss';
+@import 'node_modules/@visual-framework/vf-navigation/vf-navigation--additional.scss';
 
-@import 'vf-section-header/vf-section-header.scss';
-@import 'vf-activity-list/vf-activity-list.scss';
-@import 'vf-article-meta-information/vf-article-meta-information.scss';
+// @import 'node_modules/@visual-framework/vf-section-header/vf-section-header.scss';
+// @import 'node_modules/@visual-framework/vf-activity-list/vf-activity-list.scss';
+// @import 'node_modules/@visual-framework/vf-article-meta-information/vf-article-meta-information.scss';
 
-@import 'vf-profile/vf-profile.scss';
+// @import 'node_modules/@visual-framework/vf-profile/vf-profile.scss';
 
-@import 'vf-search/vf-search.scss';
+// @import 'node_modules/@visual-framework/vf-search/vf-search.scss';
 
-@import 'vf-social-links/vf-social-links.scss';
+// @import 'node_modules/@visual-framework/vf-social-links/vf-social-links.scss';
 
-@import 'vf-summary/vf-summary.scss';
-@import 'vf-summary/vf-summary--article.scss';
-@import 'vf-summary/vf-summary--job.scss';
-@import 'vf-summary/vf-summary--profile.scss';
-@import 'vf-summary/vf-summary--event.scss';
-@import 'vf-summary/vf-summary--publication.scss';
-@import 'vf-summary/vf-summary--news.scss';
-@import 'vf-summary/vf-summary--has-image.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--article.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--job.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--profile.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--event.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--publication.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--news.scss';
+// @import 'node_modules/@visual-framework/vf-summary/vf-summary--has-image.scss';
 
-@import 'vf-video/vf-video.scss';
-@import 'vf-video-teaser/vf-video-teaser.scss';
-@import 'vf-global-header/vf-global-header.scss';
-@import 'vf-tabs/vf-tabs.scss';
-@import 'vf-table/vf-table.scss';
-@import 'embl-breadcrumbs-lookup/embl-breadcrumbs-lookup.scss';
-@import 'vf-pagination/vf-pagination.scss';
-@import 'vf-pagination/vf-pagination--full.scss';
+// @import 'node_modules/@visual-framework/vf-video/vf-video.scss';
+// @import 'node_modules/@visual-framework/vf-video-teaser/vf-video-teaser.scss';
+@import 'node_modules/@visual-framework/vf-global-header/vf-global-header.scss';
+@import 'node_modules/@visual-framework/vf-tabs/vf-tabs.scss';
+// @import 'node_modules/@visual-framework/vf-table/vf-table.scss';
+// @import 'node_modules/@visual-framework/embl-breadcrumbs-lookup/embl-breadcrumbs-lookup.scss';
+// @import 'node_modules/@visual-framework/vf-pagination/vf-pagination.scss';
+// @import 'node_modules/@visual-framework/vf-pagination/vf-pagination--full.scss';
 
 /* All Visual Framework Containers */
 
-@import 'vf-activity-group/vf-activity-group.scss';
-@import 'vf-intro/vf-intro.scss';
-@import 'embl-content-hub-loader/embl-content-hub-loader.scss';
+// @import 'node_modules/@visual-framework/vf-activity-group/vf-activity-group.scss';
+@import 'node_modules/@visual-framework/vf-intro/vf-intro.scss';
+// @import 'node_modules/@visual-framework/embl-content-hub-loader/embl-content-hub-loader.scss';
 
-@import 'vf-banner/vf-banner.scss';
-@import 'vf-banner/vf-banner--phase.scss';
-@import 'vf-banner/vf-banner--alerts.scss';
-@import 'vf-banner/vf-banner--fixed.scss';
-@import 'vf-banner/vf-banner--gdpr.scss';
+// @import 'node_modules/@visual-framework/vf-banner/vf-banner.scss';
+// @import 'node_modules/@visual-framework/vf-banner/vf-banner--phase.scss';
+// @import 'node_modules/@visual-framework/vf-banner/vf-banner--alerts.scss';
+// @import 'node_modules/@visual-framework/vf-banner/vf-banner--fixed.scss';
+// @import 'node_modules/@visual-framework/vf-banner/vf-banner--gdpr.scss';
 
-@import 'vf-details/vf-details.scss';
+// @import 'node_modules/@visual-framework/vf-details/vf-details.scss';
 
-@import 'vf-news-container/vf-news-container.scss';
-@import 'vf-video-container/vf-video-container.scss';
-@import 'vf-footer/vf-footer.scss';
+// @import 'node_modules/@visual-framework/vf-news-container/vf-news-container.scss';
+// @import 'node_modules/@visual-framework/vf-video-container/vf-video-container.scss';
+// @import 'node_modules/@visual-framework/vf-footer/vf-footer.scss';
 
-@import 'vf-show-more/vf-show-more.scss';
+// @import 'node_modules/@visual-framework/vf-show-more/vf-show-more.scss';
 
-@import 'vf-tree/vf-tree.scss';
+// @import 'node_modules/@visual-framework/vf-tree/vf-tree.scss';
 
 /* All Visual Framework Boilerplates */
 
@@ -148,28 +173,25 @@ button {
 
 /* All Visual Framework Deprecated components */
 
-@import 'vf-deprecated/vf-deprecated.scss';
+// @import 'vf-deprecated/vf-deprecated.scss';
 
 /* EBI Specific components */
 // ebi-header-footer is not enabled by default
 // this may change as more EBI sites move to "pure" sVF 2.0
 // @import 'ebi-header-footer/ebi-header-footer.scss';
-@import 'ebi-vf1-integration/ebi-vf1-integration.scss';
+// @import 'node_modules/@visual-framework/ebi-vf1-integration/ebi-vf1-integration.scss';
 
 /* All Visual Framework Utility and high-specificity components */
 
-@import 'vf-heading/vf-heading.scss';
-@import 'vf-text/vf-text.scss';
-@import 'vf-u-fullbleed/vf-u-fullbleed.scss';
+// @import 'node_modules/@visual-framework/vf-heading/vf-heading.scss';
+// @import 'node_modules/@visual-framework/vf-text/vf-text.scss';
+// @import 'node_modules/@visual-framework/vf-u-fullbleed/vf-u-fullbleed.scss';
 
-/* Visual Framework Utility Class Mixins */
-@import 'vf-sass-config/mixins/vf-utility-mixins.scss';
-@import 'vf-utility-classes/vf-utility-classes.scss';
 
 // This is a demonstration of vf-core's ability to warn and proceed on missing
 // sass imports
-@import 'vf-somepattern/vf-i-dont-exist.scss';
+// @import 'node_modules/@visual-framework/vf-somepattern/vf-i-dont-exist.scss';
 
-// If you have any locoal overrides, put them in:
-@import 'vf-sample/vf-sample.scss';
-@import 'vf-local-overrides/vf-local-overrides.scss';
+// If you have any local overrides, put them in:
+@import '../vf-sample/vf-sample.scss';
+@import '../vf-local-overrides/vf-local-overrides.scss';

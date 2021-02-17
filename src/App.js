@@ -13,25 +13,23 @@ function App() {
     <Router basename={'/vf-react'}>
       <div className="vf-body">
         <header className="vf-global-header">
-          <div className="vf-global-header__inner">
-           <NavLink className="vf-logo" to="/">
-              <img className="vf-logo__image" src={VfLogoPath} alt="Visual Framework 2.0" />	
-              <span className="vf-logo__text">Visual Framework 2.0</span>	
-            </NavLink>
-            <nav className="vf-navigation vf-navigation--global">
-              <ul className="vf-navigation__list | vf-list--inline">
-                <li className="vf-navigation__item">
-                  <a href="https://visual-framework.github.io/vf-welcome/" className="vf-navigation__link">About the Visual Framework</a>
-                </li>
-                <li className="vf-navigation__item">
-                  <a href="https://visual-framework.github.io/vf-welcome/documentation" className="vf-navigation__link">Documentation</a>
-                </li>
-                <li className="vf-navigation__item">
-                  <a href="https://discord.gg/XHAvkUX" className="vf-navigation__link">Help, chat</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <NavLink className="vf-logo" to="/">
+            <img className="vf-logo__image" src={VfLogoPath} alt="Visual Framework 2.0" />	
+            <span className="vf-logo__text">Visual Framework 2.0</span>	
+          </NavLink>
+          <nav className="vf-navigation vf-navigation--global">
+            <ul className="vf-navigation__list | vf-list--inline">
+              <li className="vf-navigation__item">
+                <a href="https://visual-framework.github.io/vf-welcome/" className="vf-navigation__link">About the Visual Framework</a>
+              </li>
+              <li className="vf-navigation__item">
+                <a href="https://visual-framework.github.io/vf-welcome/documentation" className="vf-navigation__link">Documentation</a>
+              </li>
+              <li className="vf-navigation__item">
+                <a href="https://discord.gg/XHAvkUX" className="vf-navigation__link">Help, chat</a>
+              </li>
+            </ul>
+          </nav>
         </header>
 
         <Route exact path="/" component={Home} />
