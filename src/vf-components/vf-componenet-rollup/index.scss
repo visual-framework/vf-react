@@ -7,8 +7,7 @@
  * or follow the guide at github.com/visual-framework/vf-core
  * to learn how to build custom and optimised CSS.
  */
-/*! Component: #{map-get($componentInfo, 'name')}
- * Version: #{map-get($componentInfo, 'version')}
+/*! 
  * Location: #{map-get($componentInfo, 'location')}
  * VF Core version in use: #{map-get($componentInfo, 'vfCoreVersion')}
  * Build time: #{map-get($componentInfo, 'buildTimeStamp')}
@@ -26,7 +25,8 @@ $vf-font-plex-mono-prefix: '../../../../assets';
 // @import 'node_modules/@visual-framework/vf-font-plex-sans/vf-font-plex-sans.scss';
 
 // Here we're not making use of vf-core's Sass include paths, and there's an issue around
-// Plex's nesting of assets, so we manually import each font weight
+// Plex's nesting of assets, so we manually import each font weight.
+// This is also an annoyance present in IBM Plex's distro https://www.npmjs.com/package/@ibm/plex
 $vf-font-plex-sans-prefix: '../../../../assets';
 @import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/bold/_index.scss';
 @import 'node_modules/@visual-framework/vf-font-plex-sans/assets/scss/sans/extralight/_index.scss';
