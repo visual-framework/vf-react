@@ -2219,12 +2219,12 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-divider/-/vf-divider-2.0.0.tgz#1a23ebc5475be7f7e927c09ed2b6ce6e75e88fc0"
   integrity sha512-TVRB3Jg6wcKZi7TlQvWjAX7nzGdS9kJTMtvOMWfyM8+rFnM8A+VZ32vkT+UXHGa/8Lxl5ccTsCCnHgsRZu2mgA==
 
-"@visual-framework/vf-extensions-react@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-extensions-react/-/vf-extensions-react-0.0.2.tgz#b7ba147816fdad61e48481511613935a9a8cd259"
-  integrity sha512-o+XWN5I/VKfzj2pkcpX7lY4kmN+VM82SoN3FFj8DtiG4hT6b+Y1YfpfOe9NfR0EcsSDB1wSS66DvgSanCqK6CQ==
+"@visual-framework/vf-extensions-react@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-extensions-react/-/vf-extensions-react-0.0.3.tgz#0760fda24e488c06ecab3e051b561127cd46e35a"
+  integrity sha512-aVDBBgLAsnVHf97T/rnc0/Zg6YWcPbVM90/6hWxBhEVkEaaHjBY805G/Jw+kUFgNGCCehJzo7fAO1t8+InTfqQ==
   dependencies:
-    react-dom-fragment "^1.0.0"
+    react-dom-fragment "1.0.0"
 
 "@visual-framework/vf-figure@^1.3.0":
   version "1.3.0"
@@ -14097,7 +14097,7 @@ react-dev-utils@^11.0.3:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom-fragment@^1.0.0:
+react-dom-fragment@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-dom-fragment/-/react-dom-fragment-1.0.0.tgz#2a5c9e6e09cd5d17a535546121ec02191eef316d"
   integrity sha512-eA/TWY5/fo7lck+wD5yEWKEMU8CBvt+DCUlPCso3gT1SnoySmrVaV7h1MIG4qINAluepmFsHu5TATnuxEGPc5g==
