@@ -19,7 +19,7 @@
     "update-components": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@visual-framework/embl-grid": "2.1.1",
+    "@visual-framework/embl-grid": "2.1.2",
     "@visual-framework/vf-banner": "1.7.1",
     "@visual-framework/vf-body": "1.1.0",
     "@visual-framework/vf-breadcrumbs": "2.0.3",
