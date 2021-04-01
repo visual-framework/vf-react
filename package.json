@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@visual-framework/embl-grid": "2.1.1",
-    "@visual-framework/vf-banner": "1.7.1",
+    "@visual-framework/vf-banner": "1.7.2",
     "@visual-framework/vf-body": "1.1.0",
     "@visual-framework/vf-breadcrumbs": "2.0.3",
     "@visual-framework/vf-button": "1.4.1",
