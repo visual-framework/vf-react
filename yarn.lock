@@ -2204,7 +2204,12 @@
     highlight.js "^10.1.2"
     marked "^2.0.0"
 
-"@visual-framework/vf-design-tokens@3.3.0", "@visual-framework/vf-design-tokens@^3.3.0":
+"@visual-framework/vf-design-tokens@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.4.1.tgz#0a845d5e364c6ef7d2a39d5ab474bb4a3f5f1f41"
+  integrity sha512-drhNsS5jkM0QS/IvgrZIQXZaMM6NmW0WM1wCofIZKoc9gn8iBq2n72XsfZ1LTQllZ/yKcUxJnv5RQNRBwVZO+g==
+
+"@visual-framework/vf-design-tokens@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.3.0.tgz#9f2579c417c451485cbe480e8f3c894bdab969a1"
   integrity sha512-EIQdeRU5t6Yc339JaZ8PcELGIhNYBDEZBXWNlnTujbScXBrG5m5M66deU5RniXPW+NK+s9eVpjmZBdyPm8jbIA==
