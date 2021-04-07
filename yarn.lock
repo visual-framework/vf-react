@@ -2488,12 +2488,7 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-u-fullbleed/-/vf-u-fullbleed-1.2.2.tgz#b61ed67dbd9e78888caced868ab338c3dd7e953e"
   integrity sha512-/dJ+c3N1ItKqoJEAYbSiL7Il3uwtiVV83h4ygy94lAbbIMwwZYbLt7vXnevhDrWZ0OY684sl5YH9d3haVjlfsw==
 
-"@visual-framework/vf-utility-classes@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-utility-classes/-/vf-utility-classes-1.2.0.tgz#4b0ac2d576072f77e498b5a05fd5cea3f1b82c1f"
-  integrity sha512-aSrJwnntpUTO3MH5UqZ9FH1UqrxgYfUZAgAYlFkz+MKSARMaF1AeKlirYeRbqVm4FTy3zY3I6F88gWrpMaS/iw==
-
-"@visual-framework/vf-utility-classes@^2.0.0":
+"@visual-framework/vf-utility-classes@2.0.0", "@visual-framework/vf-utility-classes@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-utility-classes/-/vf-utility-classes-2.0.0.tgz#c0264ba3a016b5d38cfa38d905e1b61862183745"
   integrity sha512-a1wuEKGd/EjWha0f2wL/TdFKbuiB4Fsl3o/VlzjgJKRkdvlCAuWHWdSB1RXGCeIqwR8VTD04eczn+g75jfmfmA==
