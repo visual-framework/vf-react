@@ -17,8 +17,8 @@ function App() {
             <img className="vf-logo__image" src={VfLogoPath} alt="Visual Framework 2.0" />	
             <span className="vf-logo__text">Visual Framework 2.0</span>	
           </NavLink>
-          <nav className="vf-navigation vf-navigation--global">
-            <ul className="vf-navigation__list | vf-list--inline">
+          <nav class="vf-navigation vf-navigation--global | vf-cluster">
+            <ul class="vf-navigation__list | vf-list | vf-cluster__inner">
               <li className="vf-navigation__item">
                 <a href="https://visual-framework.github.io/vf-welcome/" className="vf-navigation__link">About the Visual Framework</a>
               </li>
