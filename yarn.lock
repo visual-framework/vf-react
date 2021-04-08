@@ -2431,20 +2431,20 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.4.1.tgz#716b715484d0d017e5f6a8ad3706eb3cde329d95"
   integrity sha512-gfLJ2gRaurE/iwuY0Ix3fHEfXDsCxliYpBNvwz+SCCjy1p523fLnK379KEMskPp+t5lCNDOGYXwJbNiGgz+Bkg==
 
-"@visual-framework/vf-sass-config@^2.5.2":
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.5.2.tgz#2ea98dc927fd43005a77b88d3fb787d1667365a1"
-  integrity sha512-yeDysPaOnVCyti93gXJBV00JZtEnZj9W3KlW9pbn0ga4JKDC936ICv68LHa2svPtiMAc2DRfXHG6rHS2NQXMhQ==
+"@visual-framework/vf-sass-config@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.5.3.tgz#b8c83389f9eb1d075e3d2cd1ddfba507604cc985"
+  integrity sha512-WDdRbv0uQXB4JcK9sPbjSq23ApD+FoAQgz3nUxjaJ8cbBN7b+svza8nIPLQ7XGLV0w6HAZFObLGarNKI0RT27g==
 
-"@visual-framework/vf-sass-starter@0.1.19":
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.19.tgz#67be41d613e1f7b2df4df1e0f4d47bb9ca4bec10"
-  integrity sha512-L8iBT2vhiPVoL52GEkKlz6YFrDBc/lm2oAh33jI4C0Po9h+dQbKmy6gsi8wok+RF+f6c8jbc04xgfDDdfRwubg==
+"@visual-framework/vf-sass-starter@0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.20.tgz#d090667a7672fdc19b7c13a6f55c4360de5fc298"
+  integrity sha512-vhlYWqFwu+3XVW1QJkgmGlbtSfvaNEExeQHk8N3XB8555S3fOnbDt5IrNNvm1rwYvtM8cCdLICaTe2qloG5kUw==
   dependencies:
     "@visual-framework/vf-design-tokens" "^3.4.1"
     "@visual-framework/vf-font-plex-mono" "^1.1.1"
     "@visual-framework/vf-font-plex-sans" "^1.1.1"
-    "@visual-framework/vf-sass-config" "^2.5.2"
+    "@visual-framework/vf-sass-config" "^2.5.3"
     "@visual-framework/vf-sass-utilities" "^1.0.1"
     "@visual-framework/vf-utility-classes" "^2.0.0"
 
