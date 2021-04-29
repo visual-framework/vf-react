@@ -12,29 +12,40 @@ import ComponentShowcase from './components/components-showcase/ComponentShowcas
 function App() {
   return (
     <Router basename={'/vf-react'}>
-      <div className="vf-body">
-        <header className="vf-global-header">
+      <div className="vf-body | vf-stack vf-stack--400">
+        <header class="vf-global-header">
           <NavLink className="vf-logo" to="/">
             <img className="vf-logo__image" src={VfLogoPath} alt="Visual Framework 2.0" />
-            <span className="vf-logo__text">Visual Framework 2.0</span> 
           </NavLink>
+
           <nav class="vf-navigation vf-navigation--global | vf-cluster">
             <ul class="vf-navigation__list | vf-list | vf-cluster__inner">
-              <li className="vf-navigation__item">
-                <a href="https://visual-framework.github.io/vf-welcome/" className="vf-navigation__link">About the Visual Framework</a>
+              
+              <li class="vf-navigation__item">
+                <a href="/search" class="vf-navigation__link">Search</a>
               </li>
-              <li className="vf-navigation__item">
-                <a href="https://github.com/visual-framework/vf-core/tree/develop/tools/vf-extensions-react/#readme" className="vf-navigation__link">Documentation</a>
+              <li class="vf-navigation__item">
+                <a href="https://github.com/visual-framework/vf-core" class="vf-navigation__link">GitHub</a>
               </li>
-              <li className="vf-navigation__item">
-                <Link to="/components-showcase" className="vf-navigation__link">Components Showcase</Link>
-              </li>
-              <li className="vf-navigation__item">
-                <a href="https://discord.gg/XHAvkUX" className="vf-navigation__link">Help, chat</a>
+              <li class="vf-navigation__item">
+                <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ" class="vf-navigation__link">Slack</a>
               </li>
             </ul>
           </nav>
         </header>
+        <nav class="vf-navigation vf-navigation--main | vf-cluster">
+          <ul class="vf-navigation__list | vf-list | vf-cluster__inner">
+            <li class="vf-navigation__item">
+              <NavLink exact={true} to="/" className="vf-navigation__link">Home</NavLink>
+            </li>
+            <li class="vf-navigation__item">
+              <NavLink exact={true} to="/testpage" className="vf-navigation__link">Sample page</NavLink>
+            </li>
+            <li class="vf-navigation__item">
+              <NavLink to="/components-showcase" className="vf-navigation__link">Components Showcase</NavLink>
+            </li>
+          </ul>
+        </nav>
 
         <Route exact path="/" component={Home} />
         <Route path="/components-showcase" component={ComponentShowcase} />
