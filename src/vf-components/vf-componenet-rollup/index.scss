@@ -7,13 +7,14 @@
  * or follow the guide at github.com/visual-framework/vf-core
  * to learn how to build custom and optimised CSS.
  */
-/*! 
+/*
  * Location: #{map-get($componentInfo, 'location')}
  * VF Core version in use: #{map-get($componentInfo, 'vfCoreVersion')}
  * Build time: #{map-get($componentInfo, 'buildTimeStamp')}
  */
 
 @import 'node_modules/@visual-framework/vf-sass-config/index.scss';
+@import 'node_modules/@visual-framework/vf-sass-config/mixins/vf-utility-mixins.scss';
 // Note, you can also do relative imports
 // @import '../vf-sass-config/index.scss';
 
@@ -183,7 +184,10 @@ button {
 @import 'node_modules/@visual-framework/vf-heading/vf-heading.scss';
 @import 'node_modules/@visual-framework/vf-text/vf-text.scss';
 @import 'node_modules/@visual-framework/vf-u-fullbleed/vf-u-fullbleed.scss';
-// @import 'node_modules/@visual-framework/vf-utility-classes/vf-utility-classes.scss';
+@import '@visual-framework/vf-utility-classes/vf-utility-classes.scss';
+
+@import "@visual-framework/vf-form__select/vf-form__select.scss";
+@import "@visual-framework/vf-form__checkbox/vf-form__checkbox.scss";
 
 
 // This is a demonstration of vf-core's ability to warn and proceed on missing
