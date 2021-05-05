@@ -30,7 +30,7 @@
     "@visual-framework/vf-collapse": "0.0.2",
     "@visual-framework/vf-config": "1.0.1-alpha.0",
     "@visual-framework/vf-content": "1.5.2",
-    "@visual-framework/vf-core": "2.2.23",
+    "@visual-framework/vf-core": "2.2.24",
     "@visual-framework/vf-design-tokens": "3.4.1",
     "@visual-framework/vf-details": "1.1.1",
     "@visual-framework/vf-extensions-react": "0.0.3",
