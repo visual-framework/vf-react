@@ -32,7 +32,7 @@
     "@visual-framework/vf-content": "1.5.3",
     "@visual-framework/vf-core": "2.2.24",
     "@visual-framework/vf-design-tokens": "3.4.1",
-    "@visual-framework/vf-details": "1.1.1",
+    "@visual-framework/vf-details": "1.2.0",
     "@visual-framework/vf-extensions-react": "0.0.4",
     "@visual-framework/vf-flag": "1.0.0-alpha.1",
     "@visual-framework/vf-font-plex-mono": "1.1.1",

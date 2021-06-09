@@ -2333,10 +2333,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.4.1.tgz#0a845d5e364c6ef7d2a39d5ab474bb4a3f5f1f41"
   integrity sha512-drhNsS5jkM0QS/IvgrZIQXZaMM6NmW0WM1wCofIZKoc9gn8iBq2n72XsfZ1LTQllZ/yKcUxJnv5RQNRBwVZO+g==
 
-"@visual-framework/vf-details@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-details/-/vf-details-1.1.1.tgz#fd4f6b0cd536064f9c1bd45016dba547f5b767d3"
-  integrity sha512-KNtM0D3yazUYpPFRSCpTjxkxNNbFj5bScI7g4hegDbzoEnz2KRk9LOysdA/4tB+buPNotYNuSkhwnqDmihDMAA==
+"@visual-framework/vf-details@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-details/-/vf-details-1.2.0.tgz#f5811f3d81ef999f3884bc283e0f4ed305714cf6"
+  integrity sha512-iWT15cMha3p/TlJTpW6vVqTHQHoyPCCTUt03AK9fL1xvEwPCDZi3hSvwhLruSk0asJBSp0nOF3giP+TrIp4GPA==
 
 "@visual-framework/vf-divider@^2.0.0":
   version "2.0.0"
