@@ -2328,10 +2328,15 @@
     highlight.js "^10.1.2"
     marked "^2.0.0"
 
-"@visual-framework/vf-design-tokens@3.4.1", "@visual-framework/vf-design-tokens@^3.4.1":
+"@visual-framework/vf-design-tokens@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.4.1.tgz#0a845d5e364c6ef7d2a39d5ab474bb4a3f5f1f41"
   integrity sha512-drhNsS5jkM0QS/IvgrZIQXZaMM6NmW0WM1wCofIZKoc9gn8iBq2n72XsfZ1LTQllZ/yKcUxJnv5RQNRBwVZO+g==
+
+"@visual-framework/vf-design-tokens@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-design-tokens/-/vf-design-tokens-3.6.0.tgz#12454730cb8dd7014aa14475b90f179edba9304c"
+  integrity sha512-+DwfR6GBUPqe6Gea353u0aSFo4LVXPaRJLva9pcgI8hBAvkdO1ha5Zc0pHR6WqNiXRnRIbzeAQ+szTp2TFHi8A==
 
 "@visual-framework/vf-details@1.1.1":
   version "1.1.1"
@@ -2542,20 +2547,25 @@
     stylelint-scss "^3.18.0"
     vinyl-source-stream "^2.0.0"
 
-"@visual-framework/vf-sass-config@2.5.3", "@visual-framework/vf-sass-config@^2.5.3":
+"@visual-framework/vf-sass-config@2.5.3":
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.5.3.tgz#b8c83389f9eb1d075e3d2cd1ddfba507604cc985"
   integrity sha512-WDdRbv0uQXB4JcK9sPbjSq23ApD+FoAQgz3nUxjaJ8cbBN7b+svza8nIPLQ7XGLV0w6HAZFObLGarNKI0RT27g==
 
-"@visual-framework/vf-sass-starter@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.20.tgz#d090667a7672fdc19b7c13a6f55c4360de5fc298"
-  integrity sha512-vhlYWqFwu+3XVW1QJkgmGlbtSfvaNEExeQHk8N3XB8555S3fOnbDt5IrNNvm1rwYvtM8cCdLICaTe2qloG5kUw==
+"@visual-framework/vf-sass-config@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-2.6.1.tgz#e680d1b2f8fb633d7a3330f7d807572d435afa61"
+  integrity sha512-IVFFH3N5wWhyDrwxTwmrOaH54X8C4fqBjzzgCGzyEcPWaZ8R3S927adn8G+atjku3V5fnq8Mwqgkt6u3GXw0Xg==
+
+"@visual-framework/vf-sass-starter@0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-starter/-/vf-sass-starter-0.1.23.tgz#26c0f134fb5b2ffedfb4c8599e60506d0b5045d4"
+  integrity sha512-noBvc2dDHVA+H3dru1RmhzcP5dj2su83EywnXteQ+RCSqf2d1D592+HDbgLkAp0PFuVxz2VJepIi1WYJD/qS+A==
   dependencies:
-    "@visual-framework/vf-design-tokens" "^3.4.1"
+    "@visual-framework/vf-design-tokens" "^3.6.0"
     "@visual-framework/vf-font-plex-mono" "^1.1.1"
     "@visual-framework/vf-font-plex-sans" "^1.1.1"
-    "@visual-framework/vf-sass-config" "^2.5.3"
+    "@visual-framework/vf-sass-config" "^2.6.1"
     "@visual-framework/vf-sass-utilities" "^1.0.1"
     "@visual-framework/vf-utility-classes" "^2.0.0"
 
