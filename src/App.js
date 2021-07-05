@@ -20,7 +20,6 @@ function App() {
 
           <nav className="vf-navigation vf-navigation--global | vf-cluster">
             <ul className="vf-navigation__list | vf-list | vf-cluster__inner">
-              
               <li className="vf-navigation__item">
                 <a href="/search" className="vf-navigation__link">Search</a>
               </li>
