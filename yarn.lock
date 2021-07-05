@@ -2252,10 +2252,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-button/-/vf-button-1.4.3.tgz#68cfc05bc6589b7de34f4b0295186b5c47a5fb7e"
   integrity sha512-DJBXFRT5F0eLwGrtqVx8prLBEribxk/P6yt4tSCBx9t8lhgnGZ2E8LwTzXYm03muPNizEcoKmxHOBz73H6y8Cg==
 
-"@visual-framework/vf-card@2.5.5":
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.5.5.tgz#31b5b2cfb916603ce6655ea2c69404f717bec2b2"
-  integrity sha512-/Fjq67koObjwnl4OtQaNhKoBsScWXJkiUbCBmNIv7O7MqgzRRNj+racTwbFM+aQ/mLKeqeQINatyhZWJq7rl9g==
+"@visual-framework/vf-card@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.6.0.tgz#36adcf76172ebcdbfc49d8e2894db2f2facab344"
+  integrity sha512-H2xeKysTqZh52xT5pPXTN+QQJYpvYC1rzcbkK+9yERg8npT+qWlcePSf1gpa0nZOWz7Mqr10PUJoRDR+cnebyw==
 
 "@visual-framework/vf-cluster@1.0.2":
   version "1.0.2"
