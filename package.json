@@ -39,7 +39,7 @@
     "@visual-framework/vf-font-plex-sans": "1.1.1",
     "@visual-framework/vf-footer": "1.2.0",
     "@visual-framework/vf-form__checkbox": "3.0.0-alpha.0",
-    "@visual-framework/vf-form__select": "3.0.0-alpha.0",
+    "@visual-framework/vf-form__select": "3.0.0",
     "@visual-framework/vf-global-header": "3.1.2",
     "@visual-framework/vf-grid": "1.4.1",
     "@visual-framework/vf-grid-page": "3.0.0",
