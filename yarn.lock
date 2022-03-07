@@ -2923,10 +2923,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-button/-/vf-button-2.0.0-alpha.1.tgz#22d3193db46800f2d5648882b05a13a46d5ca5eb"
   integrity sha512-S0ucUg1sqR+8qCwYGo4WMPwZ+ArsDhJu5c/B0WgGvllhIory1FGDbtAhI333iHW6O3wAznqv+uaO8CMPJQos4g==
 
-"@visual-framework/vf-card@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.6.0.tgz#36adcf76172ebcdbfc49d8e2894db2f2facab344"
-  integrity sha512-H2xeKysTqZh52xT5pPXTN+QQJYpvYC1rzcbkK+9yERg8npT+qWlcePSf1gpa0nZOWz7Mqr10PUJoRDR+cnebyw==
+"@visual-framework/vf-card@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.7.0.tgz#e732e76d498f8a2a5ae8bd652e316f419e8d151a"
+  integrity sha512-je79DeInr2/Q5wF5mOXKFlr7FD4zclykG8JIDej5i8ECxcM945QmVirdpgwfA1VhgGXRD7fpZPSv9G0wzqauhg==
 
 "@visual-framework/vf-cluster@1.0.2":
   version "1.0.2"
