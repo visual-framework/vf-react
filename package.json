@@ -49,7 +49,7 @@
     "@visual-framework/vf-intro": "1.5.0",
     "@visual-framework/vf-lede": "1.0.1",
     "@visual-framework/vf-logo": "1.5.1",
-    "@visual-framework/vf-navigation": "3.0.0-beta.1",
+    "@visual-framework/vf-navigation": "3.0.0-rc.2",
     "@visual-framework/vf-no-js": "1.0.1",
     "@visual-framework/vf-page-header": "1.1.2",
     "@visual-framework/vf-sass-config": "2.6.1",
