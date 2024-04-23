@@ -62,7 +62,7 @@
     "@visual-framework/vf-text": "1.0.2",
     "@visual-framework/vf-u-fullbleed": "1.2.2",
     "@visual-framework/vf-utility-classes": "2.0.0",
-    "gh-pages": "3.2.3",
+    "gh-pages": "5.0.0",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "8.0.0",
     "gulp-babel": "8.0.0",
