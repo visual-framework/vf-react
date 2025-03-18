@@ -1,28 +1,53 @@
-name: Deployment
+name: CI/CD Pipeline
 on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
+
 env:
-  CI: false
+  CI: true
+
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install Packages
-      run: npm install
-    - name: Build page
-      run: npm run build
-    - name: Deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./build
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Run tests
+        run: npm run test:ci
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install Packages
+        run: npm ci
+      - name: Build page
+        run: npm run build
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
