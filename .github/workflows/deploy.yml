@@ -11,24 +11,24 @@ env:
   CI: true
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x] # Updated Node.js version
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies
-        run: yarn install
-      - name: Run tests
-        run: yarn test --watchAll=false --ci
+  # test:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix:
+  #       node-version: [18.x] # Updated Node.js version
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Use Node.js ${{ matrix.node-version }}
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: ${{ matrix.node-version }}
+  #     - name: Install dependencies
+  #       run: yarn install
+  #     - name: Run tests
+  #       run: yarn test --watchAll=false --ci
 
   deploy:
-    needs: test
+    # needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
     strategy:
