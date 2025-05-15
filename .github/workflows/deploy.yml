@@ -9,6 +9,7 @@ on:
 
 env:
   CI: true
+  PUBLIC_URL: /vf-react
 
 jobs:
   # test:
@@ -44,6 +45,8 @@ jobs:
         run: yarn install
       - name: Build page
         run: yarn build
+        env:
+          PUBLIC_URL: /vf-react
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
