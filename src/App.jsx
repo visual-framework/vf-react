@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -31,6 +31,7 @@ function RouteChangeHandler({ children }) {
 }
 
 function App() {
+  // Use HashRouter instead of BrowserRouter for GitHub Pages
   return (
     <Router>
       <RouteChangeHandler>
