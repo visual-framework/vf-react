@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/vf-react/static/css/main.31d6cfe0.css",
-    "main.js": "/vf-react/static/js/main.7afbb6a9.js",
+    "main.js": "/vf-react/static/js/main.4fd1e997.js",
     "index.html": "/vf-react/index.html",
-    "main.7afbb6a9.js.map": "/vf-react/static/js/main.7afbb6a9.js.map"
+    "main.4fd1e997.js.map": "/vf-react/static/js/main.4fd1e997.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.7afbb6a9.js"
+    "static/js/main.4fd1e997.js"
   ]
 }
