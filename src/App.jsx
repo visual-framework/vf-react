@@ -34,7 +34,7 @@ function RouteChangeHandler({ children }) {
 function App() {
   // Use HashRouter instead of BrowserRouter for GitHub Pages
   return (
-    <Router>
+    <Router basename="/vf-react">
       <RouteChangeHandler>
         <Header />
         <Routes>
