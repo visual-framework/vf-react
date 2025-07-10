@@ -1,19 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "VF React App",
+  "name": "Visual Framework React App",
   "icons": [
     {
-      "src": "https://assets.emblstatic.net/vf/v2.4.11/assets/vf-favicon/assets/favicon.ico",
+      "src": "/vf-react/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "https://assets.emblstatic.net/vf/v2.4.11/assets/vf-favicon/assets/android-chrome-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }	    
+    }
   ],
-  "start_url": ".",
+  "start_url": "/vf-react/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
