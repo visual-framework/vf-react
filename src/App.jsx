@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Chatbot from './components/Chatbot';
 import VFBadge from './components/VFBadge';
 import VFBackToTop from './components/VFBackToTop';
 import VFButton from './components/VFButton';
@@ -38,6 +39,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/components/vf-badge" element={<VFBadge />} />
           <Route path="/components/vf-back-to-top" element={<VFBackToTop />} />
           <Route path="/components/vf-button" element={<VFButton />} />

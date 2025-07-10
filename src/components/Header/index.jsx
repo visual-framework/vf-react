@@ -219,6 +219,9 @@ function Header() {
                       <Link to="/components/vf-banner" className="vf-navigation__link">Banner</Link>
                     </li>
                     <li className="vf-navigation__item">
+                      <Link to="/chatbot" className="vf-navigation__link">Chatbot</Link>
+                    </li>
+                    <li className="vf-navigation__item">
                       <Link to="/components/vf-hero" className="vf-navigation__link">Hero</Link>
                     </li>
                   </ul>
