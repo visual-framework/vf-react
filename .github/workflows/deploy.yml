@@ -44,7 +44,7 @@ jobs:
       - name: Install Packages
         run: yarn install
       - name: Build page
-        run: yarn build
+        run: CI='' yarn build
         env:
           PUBLIC_URL: /vf-react
       - name: Deploy to gh-pages
