@@ -1,12 +1,28 @@
 {
   "files": {
-    "main.css": "/vf-react/static/css/main.31d6cfe0.css",
-    "main.js": "/vf-react/static/js/main.949ac07d.js",
+    "main.css": "/vf-react/static/css/main.f2d85f73.css",
+    "main.js": "/vf-react/static/js/main.98a3bce9.js",
+    "static/media/IBMPlexSans-ExtraLightItalic.woff": "/vf-react/static/media/IBMPlexSans-ExtraLightItalic.2ac780e6ee2ceed21efe.woff",
+    "static/media/IBMPlexSans-MediumItalic.woff": "/vf-react/static/media/IBMPlexSans-MediumItalic.50b6bdb578c7562d218d.woff",
+    "static/media/IBMPlexSans-LightItalic.woff": "/vf-react/static/media/IBMPlexSans-LightItalic.13587d7442919affe5ff.woff",
+    "static/media/IBMPlexSans-TextItalic.woff": "/vf-react/static/media/IBMPlexSans-TextItalic.5b99f1c87a7c28c4edb9.woff",
+    "static/media/IBMPlexSans-SemiBoldItalic.woff": "/vf-react/static/media/IBMPlexSans-SemiBoldItalic.4cba64fd33e3292b05d2.woff",
+    "static/media/IBMPlexSans-ThinItalic.woff": "/vf-react/static/media/IBMPlexSans-ThinItalic.7e474e2eeb7ace290623.woff",
+    "static/media/IBMPlexSans-Italic.woff": "/vf-react/static/media/IBMPlexSans-Italic.d3e615645ee412722868.woff",
+    "static/media/IBMPlexSans-BoldItalic.woff": "/vf-react/static/media/IBMPlexSans-BoldItalic.f5bb075ea5b45ee47495.woff",
+    "static/media/IBMPlexSans-ExtraLight.woff": "/vf-react/static/media/IBMPlexSans-ExtraLight.4680dbfca4968b9ca493.woff",
+    "static/media/IBMPlexSans-SemiBold.woff": "/vf-react/static/media/IBMPlexSans-SemiBold.25a2bda93f36d9779a24.woff",
+    "static/media/IBMPlexSans-Light.woff": "/vf-react/static/media/IBMPlexSans-Light.ef4abd2f84358122c4aa.woff",
+    "static/media/IBMPlexSans-Text.woff": "/vf-react/static/media/IBMPlexSans-Text.96677b5a0ff30714dac0.woff",
+    "static/media/IBMPlexSans-Thin.woff": "/vf-react/static/media/IBMPlexSans-Thin.25228f724125be9a9eba.woff",
+    "static/media/IBMPlexSans-Bold.woff": "/vf-react/static/media/IBMPlexSans-Bold.09a8ce4c38228417f671.woff",
+    "static/media/IBMPlexMono-Regular.woff": "/vf-react/static/media/IBMPlexMono-Regular.c8e7f1a9592338637cba.woff",
     "index.html": "/vf-react/index.html",
-    "main.949ac07d.js.map": "/vf-react/static/js/main.949ac07d.js.map"
+    "main.f2d85f73.css.map": "/vf-react/static/css/main.f2d85f73.css.map",
+    "main.98a3bce9.js.map": "/vf-react/static/js/main.98a3bce9.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.949ac07d.js"
+    "static/css/main.f2d85f73.css",
+    "static/js/main.98a3bce9.js"
   ]
 }
