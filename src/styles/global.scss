@@ -1,0 +1,11 @@
+$vf-font-plex-mono-prefix: "~@visual-framework/vf-font-plex-mono/assets";
+$vf-font-plex-sans-prefix: "~@visual-framework/vf-font-plex-sans/assets";
+
+@import "~@visual-framework/vf-sass-starter/index";
+
+// Component styles
+
+@import "~@visual-framework/vf-link/vf-link.scss";
+@import "~@visual-framework/vf-chatbot/vf-chatbot.scss";
+@import "~@visual-framework/vf-chatbot-modal/index.scss";
+@import "~@visual-framework/vf-chatbot-standalone/index.scss";
