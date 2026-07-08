@@ -12,6 +12,7 @@ import VFBlockquote from './components/VFBlockquote';
 import VFHero from './components/VFHero';
 import VFBanner from './components/VFBanner';
 import VFTabs from './components/VFTabs';
+import SearchResults from './components/SearchResults';
 // import VFChatbot from './vf-chatbot-components/vf-chatbot/vf-chatbot.react';
 import VFChatbot from '@visual-framework/vf-chatbot/vf-chatbot.react';
 
@@ -137,6 +138,7 @@ function App() {
           <Route path="/components/vf-hero" element={<VFHero />} />
           <Route path="/components/vf-banner" element={<VFBanner />} />
           <Route path="/components/vf-tabs" element={<VFTabs />} />
+          <Route path="/search" element={<SearchResults />} />
         </Routes>
         <Footer />
       </RouteChangeHandler>

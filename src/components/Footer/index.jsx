@@ -78,9 +78,6 @@ function Footer() {
               <li className="vf-list__item">
                 <a className="vf-list__link" href="https://github.com/visual-framework/vf-core">GitHub</a>
               </li>
-              <li className="vf-list__item">
-                <a className="vf-list__link" href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ">Slack</a>
-              </li>
             </ul>
           </div>
           <div className="vf-links"></div>
