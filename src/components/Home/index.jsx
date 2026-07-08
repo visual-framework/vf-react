@@ -51,7 +51,7 @@ function Home() {
         </div>
 
         <form
-          action="/search/"
+          action="/vf-react/search/"
           method="GET"
           className="vf-form vf-form--search vf-form--search--responsive | vf-sidebar vf-sidebar--end"
         >
@@ -63,7 +63,7 @@ function Home() {
               ></label>
               <input
                 type="search"
-                id="search"
+                id="search_query"
                 placeholder="Search components and documentation"
                 name="search_query"
                 className="vf-search__input | vf-form__input"

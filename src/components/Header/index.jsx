@@ -102,9 +102,6 @@ function Header() {
               <a href="https://github.com/visual-framework/vf-core" className="vf-navigation__link vf-mega-menu__link">GitHub</a>
             </li>
             <li className="vf-navigation__item">
-              <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ" className="vf-navigation__link vf-mega-menu__link">Slack</a>
-            </li>
-            <li className="vf-navigation__item">
               <Link 
                 to="/search" 
                 className="vf-navigation__link vf-mega-menu__link" 
@@ -315,7 +312,7 @@ function Header() {
               <h2 className="vf-section-header__heading" id="search"> Search</h2>
             </div>
 
-            <form action="/search/" method="GET" className="vf-form vf-form--search vf-form--search--responsive | vf-sidebar vf-sidebar--end">
+            <form action="/vf-react/search/" method="GET" className="vf-form vf-form--search vf-form--search--responsive | vf-sidebar vf-sidebar--end">
               <div className="vf-sidebar__inner">
                 <div className="vf-form__item | vf-search__item">
                   <label className="vf-form__label vf-u-sr-only | vf-search__label" htmlFor="search_query" />
