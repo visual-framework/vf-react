@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vf-react/static/css/main.3d06d175.css",
-    "main.js": "/vf-react/static/js/main.ab4c4dc5.js",
+    "main.js": "/vf-react/static/js/main.d90cf9ba.js",
     "static/js/70.69a2bcb9.chunk.js": "/vf-react/static/js/70.69a2bcb9.chunk.js",
     "static/media/IBMPlexSans-ExtraLightItalic.woff": "/vf-react/static/media/IBMPlexSans-ExtraLightItalic.2ac780e6ee2ceed21efe.woff",
     "static/media/IBMPlexSans-MediumItalic.woff": "/vf-react/static/media/IBMPlexSans-MediumItalic.50b6bdb578c7562d218d.woff",
@@ -20,11 +20,11 @@
     "static/media/IBMPlexMono-Regular.woff": "/vf-react/static/media/IBMPlexMono-Regular.c8e7f1a9592338637cba.woff",
     "index.html": "/vf-react/index.html",
     "main.3d06d175.css.map": "/vf-react/static/css/main.3d06d175.css.map",
-    "main.ab4c4dc5.js.map": "/vf-react/static/js/main.ab4c4dc5.js.map",
+    "main.d90cf9ba.js.map": "/vf-react/static/js/main.d90cf9ba.js.map",
     "70.69a2bcb9.chunk.js.map": "/vf-react/static/js/70.69a2bcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d06d175.css",
-    "static/js/main.ab4c4dc5.js"
+    "static/js/main.d90cf9ba.js"
   ]
 }
