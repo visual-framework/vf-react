@@ -1,5 +1,5 @@
 import React from "react";
-import VfCard from "./vf-card";
+import VfCard from "./vf-card.react.js";
 
 function VFCard() {
   return (
@@ -303,7 +303,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -389,7 +389,7 @@ function VFCard() {
               card_heading="A Striped Card Heading"
               card_href="JavaScript:Void(0);"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="striped"
               newTheme="primary"
             />
@@ -520,7 +520,7 @@ function VFCard() {
             <VfCard
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -571,7 +571,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -620,7 +620,7 @@ function VFCard() {
             <VfCard
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -671,7 +671,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -724,7 +724,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Bordered Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="bordered"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -873,7 +873,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Striped Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="striped"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -922,7 +922,7 @@ function VFCard() {
             <VfCard
               card_heading="A Striped Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="striped"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
@@ -973,7 +973,7 @@ function VFCard() {
               card_image__alt="Image alt text"
               card_heading="A Striped Card Heading"
               card_subheading="With sub–heading"
-              card_text={<>Lorem ipsum dolor sit amet, consectetur <a href="JavaScript:Void(0);" className="vf-card__link">adipisicing elit</a>. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
+              card_text={<>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</>}
               variant="striped"
               newTheme="primary"
               card_href="JavaScript:Void(0);"
