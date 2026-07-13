@@ -1,5 +1,5 @@
 import React from "react";
-import { VfButton } from "./vf-button.jsx";
+import { VfButton } from "./vf-button.react.js";
 
 function VFButton() {
   // Define the checkerboard background style as a constant to avoid repetition
@@ -172,11 +172,10 @@ function VFButton() {
           <summary className="vf-details--summary">React syntax</summary>
           <pre>
             <code>
-              {'import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";<br/>' +
-               '// or<br/>' +
-               'import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";<br/>' +
-               '<VfButton parameter="value" />'
-              }
+              {`import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";
+// or
+import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";
+<VfButton parameter="value" />`}
             </code>
           </pre>
           <br />
@@ -229,11 +228,10 @@ function VFButton() {
           <summary className="vf-details--summary">React syntax</summary>
           <pre>
             <code>
-              {'import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";<br/>' +
-               '// or<br/>' +
-               'import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";<br/>' +
-               '<VfButton parameter="value" />'
-              }
+              {`import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";
+// or
+import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";
+<VfButton parameter="value" />`}
             </code>
           </pre>
           <br />
@@ -300,11 +298,10 @@ function VFButton() {
           <summary className="vf-details--summary">React syntax</summary>
           <pre>
             <code>
-              {'import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";<br/>' +
-               '// or<br/>' +
-               'import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";<br/>' +
-               '<VfButton parameter="value" />'
-              }
+              {`import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";
+// or
+import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";
+<VfButton parameter="value" />`}
             </code>
           </pre>
           <br />
@@ -371,11 +368,10 @@ function VFButton() {
           <summary className="vf-details--summary">React syntax</summary>
           <pre>
             <code>
-              {'import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";<br/>' +
-               '// or<br/>' +
-               'import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";<br/>' +
-               '<VfButton parameter="value" />'
-              }
+              {`import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";
+// or
+import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";
+<VfButton parameter="value" />`}
             </code>
           </pre>
           <br />
@@ -401,7 +397,7 @@ function VFButton() {
             aria-hidden="true"
             className="vf-section-header__icon | vf-icon vf-icon-arrow--inline-end"
             width="1em"
-            height="1em"
+            height="1em"bb
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -442,11 +438,10 @@ function VFButton() {
           <summary className="vf-details--summary">React syntax</summary>
           <pre>
             <code>
-              {'import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";<br/>' +
-               '// or<br/>' +
-               'import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";<br/>' +
-               '<VfButton parameter="value" />'
-              }
+              {`import { VfButton } from "@visual-framework/vf-button/vf-button.react.js";
+// or
+import { VfButton } from "@visual-framework/vf-button/vf-button.jsx";
+<VfButton parameter="value" />`}
             </code>
           </pre>
           <br />
